@@ -1269,27 +1269,6 @@ main {
     border-radius: 4px;
 }
 
-.schedule-paper-title {
-    display: block;
-    color: var(--text-primary);
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 6px;
-    font-weight: 500;
-}
-
-.schedule-paper-presenter {
-    color: var(--text-secondary);
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 4px;
-}
-.schedule-paper-presenter::before {
-    content: "👤";
-    font-size: 12px;
-}
 
 .schedule-tab {
     padding: 6px 14px;

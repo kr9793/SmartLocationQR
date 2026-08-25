@@ -58,6 +58,11 @@ def parse_schedules():
                             time_str = str(row[3]).replace('\n', ' ').strip() if len(row) > 3 else ""
                             session_type = str(row[1]).replace('\n', ' ').strip() if len(row) > 1 else ""
                             
+                            if session_type == "None" or not session_type:
+                                current_session_info = None
+                                current_location_id = None
+                                continue
+
                             session_key = f"{day_full}_{time_str}"
                             if session_key not in schedule_dict[loc_id]:
                                 schedule_dict[loc_id][session_key] = {

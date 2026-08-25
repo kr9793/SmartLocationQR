@@ -10,24 +10,33 @@ async function loadLocations() {
 
     try {
 
-        const response =
-            await fetch(
-                "assets/data/locations.json?v=" +
-                Date.now()
-            );
+        const [locRes, schedRes] = await Promise.all([
+            fetch("assets/data/locations.json?v=" + Date.now()),
+            fetch("assets/data/schedule.json?v=" + Date.now())
+        ]);
 
-
-        if (!response.ok) {
-
-            throw new Error(
-                "Unable to load locations"
-            );
-
+        if (!locRes.ok) {
+            throw new Error("Unable to load locations");
         }
 
+        const locationsData = await locRes.json();
+        
+        let schedulesData = [];
+        if (schedRes.ok) {
+            try {
+                schedulesData = await schedRes.json();
+            } catch (e) {
+                console.error("Failed to parse schedule", e);
+            }
+        }
 
-        allLocations =
-            await response.json();
+        allLocations = locationsData.map(loc => {
+            const sched = schedulesData.find(s => String(s.location_id) === String(loc.id));
+            return {
+                ...loc,
+                schedule: sched ? sched.sessions : []
+            };
+        });
 
 
         buildFilterChips(
@@ -224,10 +233,26 @@ function applyFilters() {
                             location.description || ""
                         ).toLowerCase();
 
+                    let matchSchedule = false;
+                    if (location.schedule) {
+                        for (const session of location.schedule) {
+                            if (session.type && session.type.toLowerCase().includes(search)) matchSchedule = true;
+                            for (const paper of session.papers) {
+                                if (paper.title.toLowerCase().includes(search) || 
+                                    paper.presenter.toLowerCase().includes(search) ||
+                                    paper.id.toLowerCase().includes(search)) {
+                                    matchSchedule = true;
+                                    break;
+                                }
+                            }
+                            if (matchSchedule) break;
+                        }
+                    }
 
                     return (
                         name.includes(search) ||
-                        description.includes(search)
+                        description.includes(search) ||
+                        matchSchedule
                     );
 
                 }

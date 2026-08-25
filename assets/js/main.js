@@ -36,7 +36,7 @@ async function loadLocations() {
                 ...loc,
                 schedule: sched ? sched.sessions : []
             };
-        });
+        }).filter(loc => loc.schedule.length > 0);
 
 
         buildFilterChips(
@@ -358,15 +358,15 @@ function displayLocations(
                     <div class="home-card-body">
 
                         <div class="home-card-number">
-                            LOCATION ${location.id}${location.category ? " • " + location.category.toUpperCase() : ""}
+                            ${location.category ? location.category.toUpperCase() : "CONFERENCE HALL"}
                         </div>
 
                         <h3>
                             ${location.name}
                         </h3>
 
-                        <p>
-                            ${location.description || ""}
+                        <p style="color: var(--cyan); font-weight: 500; font-size: 0.9rem;">
+                            ${location.schedule.length} Sessions Scheduled
                         </p>
 
 

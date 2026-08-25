@@ -123,97 +123,34 @@ function displayLocation(location) {
             : (location.category || "CAMPUS LOCATION").toUpperCase();
 
 
-    /* PHOTO */
+    /* VIRTUAL LOCATION OVERRIDES */
+    if (location.category === "Virtual") {
+        document.getElementById("mediaRow").style.display = "none";
+        document.getElementById("directions").style.display = "none";
+        document.getElementById("coordinates").parentElement.style.display = "none";
+    } else {
+        /* PHOTO */
+        const photo = document.getElementById("locationPhoto");
+        photo.src = location.image;
+        photo.alt = location.name;
 
-    const photo =
-        document.getElementById(
-            "locationPhoto"
-        );
+        /* COORDINATES — VALIDATE */
+        const lat = Number(location.latitude);
+        const lng = Number(location.longitude);
+        const hasValidCoords = Number.isFinite(lat) && Number.isFinite(lng);
 
-
-    photo.src =
-        location.image;
-
-
-    photo.alt =
-        location.name;
-
-
-    photo.onerror =
-        function () {
-
-            this.style.display =
-                "none";
-
-        };
-
-
-    /* COORDINATES — VALIDATE */
-
-    const lat =
-        Number(location.latitude);
-
-    const lng =
-        Number(location.longitude);
-
-    const hasValidCoords =
-        Number.isFinite(lat) &&
-        Number.isFinite(lng);
-
-
-    if (hasValidCoords) {
-
-        document.getElementById(
-            "coordinates"
-        ).textContent =
-            lat + ", " + lng;
-
-
-        /* DIRECTIONS */
-
-        document.getElementById(
-            "directions"
-        ).href =
-            "https://www.google.com/maps/dir/?api=1&destination=" +
-            lat + "," + lng;
-
-
-        /* MAP */
-
-        document.getElementById(
-            "mapFrame"
-        ).src =
-            "https://maps.google.com/maps?q=" +
-            lat + "," + lng +
-            "&z=18&output=embed";
-
-    }
-
-    else {
-
-        document.getElementById(
-            "coordinates"
-        ).textContent =
-            "Not available";
-
-
-        document.getElementById(
-            "mapSection"
-        ).style.display =
-            "none";
-
-
-        document.getElementById(
-            "directions"
-        ).style.display =
-            "none";
-
-
-        document.getElementById(
-            "mapUnavailable"
-        ).style.display =
-            "block";
-
+        if (hasValidCoords) {
+            document.getElementById("coordinates").textContent = lat + ", " + lng;
+            /* DIRECTIONS */
+            document.getElementById("directions").href = "https://www.google.com/maps/dir/?api=1&destination=" + lat + "," + lng;
+            /* MAP */
+            document.getElementById("mapFrame").src = "https://maps.google.com/maps?q=" + lat + "," + lng + "&z=18&output=embed";
+        } else {
+            document.getElementById("coordinates").textContent = "Not available";
+            document.getElementById("mapSection").style.display = "none";
+            document.getElementById("directions").style.display = "none";
+            document.getElementById("mapUnavailable").style.display = "block";
+        }
     }
 
 

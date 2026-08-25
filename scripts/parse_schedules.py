@@ -41,7 +41,7 @@ def parse_schedules():
                         venue_str = str(row[4]).lower() if len(row) > 4 and row[4] else ""
                         
                         loc_id = None
-                        if "online" in venue_str or "meet" in venue_str:
+                        if "online" in pdf_file.lower() or "meet" in venue_str:
                             loc_id = 17
                         else:
                             for loc_name, lid in loc_map.items():

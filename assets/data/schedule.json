@@ -1012,10 +1012,77 @@
         "location_id": 17,
         "sessions": [
             {
+                "day": "Day 02 (30/08/2026)",
+                "type": "None",
+                "time": "None",
+                "papers": [
+                    {
+                        "id": "955/1355Cons",
+                        "track": "hings 5",
+                        "title": "tructing a Real-Time Monitoring and Collaborative Rescue Platform for Agricultural Flood Disasters in Henan Province Based on GIS and the Internet of T",
+                        "presenter": "Nan Li"
+                    },
+                    {
+                        "id": "958/1359",
+                        "track": "5",
+                        "title": "Deep Learning-Based Masked Face Recognition Using Hybrid Neural Classification",
+                        "presenter": "K. Vijayakumar"
+                    }
+                ]
+            },
+            {
                 "day": "Day 01 (29/08/2026)",
                 "type": "Online Technical Session 01",
                 "time": "Slot 1 10:00 AM to 01:00 PM",
                 "papers": [
+                    {
+                        "id": "53",
+                        "track": "2",
+                        "title": "Cognitive Sentinel: A Scalable AI Framework for Emotion-Informed Mental Health Screening",
+                        "presenter": "SNEHAL SACHIN"
+                    },
+                    {
+                        "id": "825",
+                        "track": "2",
+                        "title": "Hybrid GARCH\u2013LSTM Framework for Risk-Calibrated Wealth Projection in Global Equity Markets",
+                        "presenter": "ANTAPURKAR Shobana P"
+                    },
+                    {
+                        "id": "924",
+                        "track": "2",
+                        "title": "Supervised Contrastive Learning Approach with Dynamic Hard Negative Mining for Indian Dish Recognition",
+                        "presenter": "Nidhi Verma"
+                    },
+                    {
+                        "id": "1066",
+                        "track": "2",
+                        "title": "A Comprehensive Survey on Deep Learning Approaches for Multi-Modality Imaging Fusion in Early Prostate Cancer Detection",
+                        "presenter": "Sapna Gupta"
+                    },
+                    {
+                        "id": "1227",
+                        "track": "2",
+                        "title": "Explainable Fake News Detection Using DistilBERT Embeddings, CatBoost Classification, and Hybrid XAI (LIME + SHAP)",
+                        "presenter": "Kaveri Rai"
+                    },
+                    {
+                        "id": "1228",
+                        "track": "2",
+                        "title": "Mask R-CNN Based Instance Segmentation of Tubes in Chest X-ray Images Using Limited Annotations",
+                        "presenter": "Poonam Verma"
+                    },
+                    {
+                        "id": "1317",
+                        "track": "2",
+                        "title": "CIAT: Cross-Modal Incongruity-Aware Transformer for Multimodal Sarcasm Detection",
+                        "presenter": "bhavana verma"
+                    },
+                    {
+                        "id": "1324",
+                        "track": "2",
+                        "title": "A Machine Learning Approach to Demand Forecasting and Inventory Optimization Under Supply Disruption",
+                        "presenter": "Swati Joshi"
+                    },
                     {
                         "id": "928",
                         "track": "2",
@@ -1069,6 +1136,162 @@
                         "track": "5",
                         "title": "Designing Smart Contracts and Blockchain Technology Platforms for Return Assurance in E-Business Supply Chains",
                         "presenter": "LingKWumeia Pr ang"
+                    },
+                    {
+                        "id": "1210",
+                        "track": "5",
+                        "title": "Building Secure Software with SonarQube for Continuous Code Quality and Security Analysis",
+                        "presenter": "R. Kavitha"
+                    },
+                    {
+                        "id": "1261",
+                        "track": "5",
+                        "title": "Design and Numerical Optimization of High-Performance Lead-Free La\u2082NiMnO\u2086Double-Perovskite Incorporating Graphene Oxide and WS\u2082 for Photovoltaic Application",
+                        "presenter": "Neeraj Devi"
+                    },
+                    {
+                        "id": "1030",
+                        "track": "4",
+                        "title": "Attention-Enhanced Deep Learning Model for Audio-Based Sentiment Analysis",
+                        "presenter": "Kajal"
+                    },
+                    {
+                        "id": "1184",
+                        "track": "4",
+                        "title": "Impact Of Diversity Equity Inclusion On Employee Motivation With Mediating Effect Of Commitment IT Firms",
+                        "presenter": "Chourasiya Meenatchi M B"
+                    },
+                    {
+                        "id": "1225",
+                        "track": "3",
+                        "title": "Hybrid Convolutional Neural Network and Gated Recurrent Unit Modeling of Alpha\u2013Theta Dynamics for Predicting Episodic Memory Encoding",
+                        "presenter": "B. Bhavyasree, P. Charishma,"
+                    },
+                    {
+                        "id": "1337",
+                        "track": "3",
+                        "title": "Intelligent Learning Analytics Using Cognitive and Fuzzy-Based AI Frameworks",
+                        "presenter": "R.H Keimshao Rre"
+                    },
+                    {
+                        "id": "1341",
+                        "track": "3",
+                        "title": "Secure Digital Identity Management using Blockchain and ML in E Governance System",
+                        "presenter": "VaisKhaanlin Gaaur"
+                    },
+                    {
+                        "id": "1352",
+                        "track": "3",
+                        "title": "Privacy-by- Design in AI security: A Fuzzy Logic Approach to Legal Integration",
+                        "presenter": "Mrs.A.Hema"
+                    },
+                    {
+                        "id": "1279",
+                        "track": "2",
+                        "title": "Content-Based Searching in Object Storage Systems using Deep Learning Techniques",
+                        "presenter": "Srikanth Rapelli"
+                    },
+                    {
+                        "id": "1282",
+                        "track": "2",
+                        "title": "GeetBot University Assistant: An Ai Powered Conversational System For Academic Query Automation",
+                        "presenter": "Sravani K"
+                    },
+                    {
+                        "id": "3",
+                        "track": "2",
+                        "title": "Intelligent Decision Support System for Resource Optimization and Waste Reduction",
+                        "presenter": "Ajay Pal Singh"
+                    },
+                    {
+                        "id": "80",
+                        "track": "2",
+                        "title": "Recent Advances and AI-Driven Innovations in Next-Generation Wireless Communication Networks",
+                        "presenter": "Mukkamalla Sree Harinath"
+                    },
+                    {
+                        "id": "883",
+                        "track": "2",
+                        "title": "TFID-NB A Fake News Detection approach via Attention-Based Deep Learning Models",
+                        "presenter": "NitisRhe dKduymar"
+                    },
+                    {
+                        "id": "920",
+                        "track": "2",
+                        "title": "An Explainable Machine Learning Framework for Binary Seizure Detection Using Clinical EEG Signals",
+                        "presenter": "Tripathi Himanshu"
+                    },
+                    {
+                        "id": "906",
+                        "track": "2",
+                        "title": "FLOOD-RESILIENT URBAN PLANNING THROUGH AI DRIVEN HYDROLOGICAL MODELING",
+                        "presenter": "SibaSrahmar mPraasad"
+                    },
+                    {
+                        "id": "957",
+                        "track": "5",
+                        "title": "Clothing Rental Platform Based on Solidity Smart Contract: Realizing a Circular Economy Model with Automated Deposit Management and Rental Cycle Control",
+                        "presenter": "panda WANG YUJIE"
+                    },
+                    {
+                        "id": "1320",
+                        "track": "2",
+                        "title": "The Impact of AI-Enabled Business Process Automation on Organizational Performance",
+                        "presenter": "Dr. Sunil Kumar"
+                    },
+                    {
+                        "id": "1321",
+                        "track": "2",
+                        "title": "A Predictive Analytics Framework for Customer Churn and Retention Management",
+                        "presenter": "Dr. Sunil Kumar"
+                    },
+                    {
+                        "id": "927",
+                        "track": "2",
+                        "title": "Generalization of Transformer-based Models for Emotion Classification Across Diverse Text Domains",
+                        "presenter": "Divyansh"
+                    },
+                    {
+                        "id": "1129",
+                        "track": "2",
+                        "title": "Imbalanced Data: Challenges, Techniques, and Future Directions",
+                        "presenter": "SantoGsahn Kdhuimar Chauhan"
+                    },
+                    {
+                        "id": "1355",
+                        "track": "5",
+                        "title": "Constructing a Real-Time Monitoring and Collaborative Rescue Platform for Agricultural Flood Disasters in Henan Province Based on GIS and the Internet of Things",
+                        "presenter": "Nan Li"
+                    },
+                    {
+                        "id": "1359",
+                        "track": "5",
+                        "title": "Deep Learning-Based Masked Face Recognition Using Hybrid Neural Classification",
+                        "presenter": "K. Vijayakumar"
+                    },
+                    {
+                        "id": "895",
+                        "track": "1",
+                        "title": "Cloud-ZK-Rollup-Based Hybrid Framework for Secure and Scalable Medical Data Management",
+                        "presenter": "ANUSHRAV MISHRA"
+                    },
+                    {
+                        "id": "1183",
+                        "track": "1",
+                        "title": "Design and Evaluation of Variational Quantum Learning Models for Near-Term Quantum Devices",
+                        "presenter": "Rupam"
+                    },
+                    {
+                        "id": "959",
+                        "track": "5",
+                        "title": "Augmented Reality Picture Book Reading: A New Model of Preschool Education Based on the Integration of Multiple Intelligence Theory and Language",
+                        "presenter": "Bhagawati Haohan Mao"
+                    },
+                    {
+                        "id": "1155",
+                        "track": "2",
+                        "title": "Arts Machine Learning Approaches for Stock Price Movement Prediction: A Comprehensive Survey",
+                        "presenter": "ATEBAR HAIDER"
                     }
                 ]
             },
@@ -1077,6 +1300,54 @@
                 "type": "Online Technical Session 02",
                 "time": "Slot 1 10:00 AM to 01:00 PM",
                 "papers": [
+                    {
+                        "id": "79",
+                        "track": "5",
+                        "title": "Massive MIMO and beamforming for Advanced Wireless Communication",
+                        "presenter": "Aarti"
+                    },
+                    {
+                        "id": "902",
+                        "track": "5",
+                        "title": "LUMINACORE: A Hybrid Blockchain-Integrated Intelligent Learning Platform",
+                        "presenter": "Shubhi"
+                    },
+                    {
+                        "id": "926",
+                        "track": "5",
+                        "title": "Hybrid Adaptive Modulation Framework for Spectrum-Efficient Cognitive Radio Systems under Composite Time-Selective and Frequency-Selective Nakagami-m Multipath Fading Environments",
+                        "presenter": "Amrita Tiwari"
+                    },
+                    {
+                        "id": "1208",
+                        "track": "5",
+                        "title": "Blockchain and IoT Enabled Platform for Sustainable Agricultural Product Traceability",
+                        "presenter": "K.C.Sharmili"
+                    },
+                    {
+                        "id": "1079",
+                        "track": "5",
+                        "title": "Comparative Analysis of urban and Rural consumer preferences Toward Digital Lending platforms in Emerging Financial Markets",
+                        "presenter": "KRISHNAVENI B"
+                    },
+                    {
+                        "id": "1209",
+                        "track": "5",
+                        "title": "Blowfish-Enabled Secure Heart Disease Data Transmission in Healthcare Applications",
+                        "presenter": "R Senkamalavalli"
+                    },
+                    {
+                        "id": "1351",
+                        "track": "2",
+                        "title": "AI-Driven Governance Strategies for Protecting Critical Infrastructure from State-Sponsored Cyber Threats",
+                        "presenter": "MANISHA RAI"
+                    },
+                    {
+                        "id": "1343",
+                        "track": "2",
+                        "title": "Artificial Intelligence in Cross-Border Data Governance: Legal Harmonization and Security Challenges",
+                        "presenter": "M.KALAIVANI"
+                    },
                     {
                         "id": "1327",
                         "track": "2",
@@ -1130,6 +1401,169 @@
                         "track": "5",
                         "title": "Trust Model for Mitigation and Avoidance of Hybrid Security Attacks in Underwater Acoustic Wireless Sensor Networks (UAWSNs)",
                         "presenter": "Vinay Agrawal"
+                    },
+                    {
+                        "id": "1216",
+                        "track": "5",
+                        "title": "Utilising the Power of Nmap Port Scanning for Superior Cybersecurity and Network Protection",
+                        "presenter": "K Babu"
+                    },
+                    {
+                        "id": "898",
+                        "track": "4",
+                        "title": "Predicting Interest Level of Rental Listings",
+                        "presenter": "Debashis Chakraborty"
+                    },
+                    {
+                        "id": "1060",
+                        "track": "4",
+                        "title": "Predicting Social Media Addiction Level Using Behavioral Data",
+                        "presenter": "Deepansh Parashar"
+                    },
+                    {
+                        "id": "1213",
+                        "track": "4",
+                        "title": "Ethical Hacking with Metasploit for a Penetration Testing Framework to Identify System Vulnerabilities",
+                        "presenter": "Sanjai R"
+                    },
+                    {
+                        "id": "1293",
+                        "track": "3",
+                        "title": "Recent Developments in Deep Learning Methods for Diabetes-Related Foot Ulcers: A Comprehensive Review",
+                        "presenter": "Varun Kumar Gupta"
+                    },
+                    {
+                        "id": "944",
+                        "track": "6",
+                        "title": "A Unified Multimodal Campus Navigation System, Combining GIS Routing and Conversational Chatbot for Effective Wayfinding",
+                        "presenter": "Kudumula Vishnu Vardhan"
+                    },
+                    {
+                        "id": "1090",
+                        "track": "2",
+                        "title": "A Multi-Modal Fusion and Spatio-Temporal 3D-CNN for Early Detection of Mango Anthracnose in Natural Infection Scenarios",
+                        "presenter": "Reddy VIPIN RAWAT"
+                    },
+                    {
+                        "id": "1063",
+                        "track": "4",
+                        "title": "Data-Driven Crime Detection and Prevention Model for Smart Cities using Machine Learning and Deep learning",
+                        "presenter": "Unknown Presenter"
+                    },
+                    {
+                        "id": "1040/1293",
+                        "track": "General",
+                        "title": "Recent Developments in Deep Learning Methods for Diabetes-Related Foot Ulcers: A Comprehensive Review",
+                        "presenter": "Unknown Presenter"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Online Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "1268",
+                        "track": "2",
+                        "title": "Evaluating the Effectiveness of Cognitive AI-Integrated ML Models Using Standardized Metrics in Next-Generation Networks",
+                        "presenter": "Anitha Vippadapu"
+                    },
+                    {
+                        "id": "1272",
+                        "track": "2",
+                        "title": "Intelligent Multilingual Sign and Gesture Recognition Using CNN\u2013Transformer Fusion and Explainable Deep Learning for Smart",
+                        "presenter": "Udayasri Gidigam"
+                    },
+                    {
+                        "id": "1273",
+                        "track": "2",
+                        "title": "Temporal Contrastive Self-Supervised Learning for Personalized Disease Progression using Knowledge-Enhanced 3D CT Representations",
+                        "presenter": "Mamatha Botla"
+                    },
+                    {
+                        "id": "1274",
+                        "track": "2",
+                        "title": "Human Aligned Long Form Answer Evaluation Using Retrieval Augmented Generation and Explainable Reasoning",
+                        "presenter": "Anuradha Surabhi"
+                    },
+                    {
+                        "id": "1275",
+                        "track": "2",
+                        "title": "Real-Time EEG-Based Mental State Monitoring: A Systematic Review of Deep Learning Approaches",
+                        "presenter": "Arpitha Rani D"
+                    },
+                    {
+                        "id": "995",
+                        "track": "6",
+                        "title": "Dirichlet-Evidential Trust, Quantum-Resilient Authentication in Zero Trust Control Loop for Multi-Cloud Environments",
+                        "presenter": "Sneha Chakraborty"
+                    },
+                    {
+                        "id": "1326",
+                        "track": "2",
+                        "title": "Deep Learning\u2013Driven Predictive Analytics for Climate Dynamics and Integrated Environmental Monitoring Systems",
+                        "presenter": "Dr. Swati Joshi"
+                    },
+                    {
+                        "id": "1098",
+                        "track": "2",
+                        "title": "Adaptive Label-Relation Graph Networks for Multi-Label Pulmonary Disorder Classification: Extending the Hybrid Model to Co-occurring Pathologies",
+                        "presenter": "Km Divya"
+                    },
+                    {
+                        "id": "1325",
+                        "track": "2",
+                        "title": "Explainable Deep Learning Models for Early Disease Detection: A Comparative Study",
+                        "presenter": "Deepak Asudani"
+                    },
+                    {
+                        "id": "1084",
+                        "track": "2",
+                        "title": "Multi-Layered Alert Fatigue Reduction in AI-Augmented SIEM Systems",
+                        "presenter": "Dr. Pawan Kumar Mall"
+                    },
+                    {
+                        "id": "1182",
+                        "track": "2",
+                        "title": "Machine Learning-Based Prediction of End-of-Trip Battery State of Charge for EV",
+                        "presenter": "Pan Thiri Tun"
+                    },
+                    {
+                        "id": "1188",
+                        "track": "2",
+                        "title": "Electric Vehicle Range Prediction using Machine Learning",
+                        "presenter": "Oakkar Min"
+                    },
+                    {
+                        "id": "1192",
+                        "track": "2",
+                        "title": "EEG-Based Epileptic Seizure Forecasting Using Machine Learning and Deep Learning Techniques",
+                        "presenter": "Maneesh Kumar"
+                    },
+                    {
+                        "id": "1207",
+                        "track": "2",
+                        "title": "An Adaptive IoT-Based System using random forest algorithm for Real-Time Water and Energy Management in Urban Areas",
+                        "presenter": "Farzhana I"
+                    },
+                    {
+                        "id": "1217",
+                        "track": "2",
+                        "title": "An ARIMA-Based Infectious Disease Forecasting System Integrated with a Robotic Assistant for Public Awareness and Human Interaction",
+                        "presenter": "R. Vinodha"
+                    },
+                    {
+                        "id": "925",
+                        "track": "2",
+                        "title": "Performance Optimization of Ultra-Dense Networks with Massive MIMO Under Composite Fading Conditions for Enhanced User Experience",
+                        "presenter": "Deepak Upadhyay"
+                    },
+                    {
+                        "id": "1215",
+                        "track": "5",
+                        "title": "Utilising Splunk Phantom to effectively manage incidents for streamlined cybersecurity incident response and automation",
+                        "presenter": "Nunna Vishnu Vamsi"
                     }
                 ]
             }

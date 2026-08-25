@@ -1,6 +1,6 @@
 {
-    "name": "Smart Location QR - MMMUT",
-    "short_name": "Smart Location QR",
+    "name": "iSmartComp Connect - MMMUT",
+    "short_name": "iSmartComp Connect",
     "description": "Campus location directory for MMMUT, Gorakhpur.",
     "start_url": "index.html",
     "scope": ".",

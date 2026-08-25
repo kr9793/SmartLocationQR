@@ -133,12 +133,14 @@ function renderSchedule() {
         if (session.papers && session.papers.length > 0) {
             papersHtml = session.papers.map(p => `
                 <div class="schedule-paper">
-                    <div class="paper-header">
-                        <span class="paper-id">#${p.id}</span>
-                        <span class="paper-track">Track ${p.track}</span>
+                    <div class="schedule-paper-header">
+                        <span class="schedule-paper-id">#${p.id}</span>
+                        <span class="schedule-paper-track">Track ${p.track}</span>
                     </div>
-                    <h4>${p.title}</h4>
-                    <div class="paper-presenter">👤 ${p.presenter}</div>
+                    <h4 class="schedule-paper-title">${p.title}</h4>
+                    <div class="schedule-paper-presenter">
+                        <span class="presenter-icon">👤</span> ${p.presenter}
+                    </div>
                 </div>
             `).join("");
         } else {

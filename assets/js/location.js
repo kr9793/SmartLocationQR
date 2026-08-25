@@ -314,13 +314,13 @@ function renderSchedule() {
     
     filteredSessions.forEach(session => {
         html += `
-        <div class="schedule-session">
+        <div class="schedule-group">
             <div class="schedule-header">
                 <div class="schedule-header-left">
                     <span>${session.day}</span>
-                    <h3>${session.type}</h3>
+                    <h3 style="margin: 0; color: var(--cyan);">${session.type}</h3>
                 </div>
-                <div class="schedule-time">
+                <div class="schedule-time" style="margin-top: 5px;">
                     ${session.time}
                 </div>
             </div>
@@ -330,13 +330,13 @@ function renderSchedule() {
             session.papers.forEach(paper => {
                 html += `
                 <div class="schedule-paper">
-                    <div class="schedule-paper-meta">
-                        <span class="schedule-paper-id">ID: ${paper.id}</span>
+                    <div class="schedule-paper-header">
+                        <span class="schedule-paper-id">#${paper.id}</span>
                         <span class="schedule-paper-track">Track ${paper.track}</span>
                     </div>
-                    <strong class="schedule-paper-title">${paper.title}</strong>
+                    <h4 class="schedule-paper-title">${paper.title}</h4>
                     <div class="schedule-paper-presenter">
-                        ${paper.presenter}
+                        <span class="presenter-icon">👤</span> ${paper.presenter}
                     </div>
                 </div>
                 `;

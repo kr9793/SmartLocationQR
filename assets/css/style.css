@@ -1779,8 +1779,76 @@ main {
         font-size: 13px;
     }
 
-    .home-card p {
-        font-size: 7px;
-    }
+}
 
+/* ==========================================
+   SCHEDULE SESSION STYLING
+   ========================================== */
+
+.schedule-group {
+    background: rgba(10, 15, 30, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.schedule-group .schedule-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.schedule-paper {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.schedule-paper:hover {
+    background: rgba(56, 189, 248, 0.05);
+    border-color: rgba(56, 189, 248, 0.2);
+    transform: translateY(-2px);
+}
+
+.schedule-paper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.schedule-paper-id {
+    color: var(--cyan);
+    font-family: monospace;
+    background: rgba(56, 189, 248, 0.1);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.schedule-paper-track {
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.schedule-paper-title {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--text);
+}
+
+.schedule-paper-presenter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a0aec0;
+    font-size: 0.85rem;
 }

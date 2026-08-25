@@ -1586,7 +1586,7 @@ main {
 
     .home-brand-text small,
     .brand-text small {
-        font-size: 8px;
+        display: none;
     }
 
     .home-nav {
@@ -1686,6 +1686,26 @@ main {
 
     .home-card-number {
         font-size: 6.5px;
+    }
+
+    .footer-campus {
+        font-size: 11px;
+    }
+
+    .home-hero-title {
+        font-size: 2.2rem !important;
+        margin-top: 15px !important;
+    }
+
+    .home-hero-subtitle {
+        font-size: 0.95rem !important;
+        padding: 0 10px;
+    }
+
+    .home-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0 20px;
     }
 
     .home-card h3 {

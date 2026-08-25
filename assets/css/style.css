@@ -440,8 +440,10 @@ a {
 }
 
 .location-count {
-    width: 34px;
+    min-width: 34px;
     height: 34px;
+    padding: 0 10px;
+    white-space: nowrap;
 
     display: flex;
     align-items: center;
@@ -1690,8 +1692,9 @@ main {
     }
 
     .location-count {
-        width: 27px;
+        min-width: 27px;
         height: 27px;
+        padding: 0 6px;
 
         font-size: 8px;
     }
@@ -1849,6 +1852,12 @@ main {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #a0aec0;
-    font-size: 0.85rem;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    margin-top: 5px;
+}
+
+.presenter-icon {
+    opacity: 0.9;
+    font-size: 1.1rem;
 }

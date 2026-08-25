@@ -1,0 +1,38 @@
+[
+  {
+    "location_id": 13,
+    "venue": "PL-116 -GF",
+    "sessions": [
+      {
+        "day": "Day 01 (29/08/2026)",
+        "time": "Slot 1 10:00 AM to 01:00 PM",
+        "type": "Offline Technical Session 01",
+        "papers": [
+          { "id": "822", "title": "Enhancing cross - project software defect prediction with a Multi - Classifier Approach", "track": "2", "presenter": "Shalini" },
+          { "id": "879", "title": "An SVM-based Machine Learning Approach for Pneumonia Detection", "track": "2", "presenter": "Shreya Sharma" },
+          { "id": "882", "title": "Comparative Analysis of Machine Learning Models for Fertilizer Recommendation in Smart Farming", "track": "2", "presenter": "Kanchan" },
+          { "id": "901", "title": "Visual and Skeletal Feature Extraction for Automated Hand Gesture Classification: A CNN–LSTM Benchmarking Study", "track": "2", "presenter": "Harshita Gahlot" },
+          { "id": "905", "title": "ViT Based Multimodal Neuroimaging for the Early AD Detection", "track": "2", "presenter": "Shagufta Shakeel" },
+          { "id": "918", "title": "Hybrid Explainable Ensemble-Based Breast Cancer Detection Architecture", "track": "2", "presenter": "Nidhi Chaudhary" },
+          { "id": "941", "title": "Estimation of Water Discharge in Mahanadi River Using Bayesian Regularized Neural Network Model", "track": "2", "presenter": "Kashish Zehra Naqvi" },
+          { "id": "1133", "title": "SafePath - An AI Pothole Detection and Reporting System", "track": "3", "presenter": "Saijshree Srivastava" }
+        ]
+      },
+      {
+        "day": "Day 02 (30/08/2026)",
+        "time": "Slot 1 10:00 AM to 01:00 PM",
+        "type": "Offline Technical Session 02",
+        "papers": [
+          { "id": "912", "title": "Design and Implementation of a Secure Real-Time Chat Application Using End-to-End Encryption", "track": "6", "presenter": "Lakhan Tomar" },
+          { "id": "1051", "title": "A Hybrid ResViT-18 Based Decision Support System for Grape Leaf Disease Detection", "track": "3", "presenter": "Varshika Gautam" },
+          { "id": "1367", "title": "A Stacking Ensemble Learning Framework For Alzheimer's Disease Prediction Using Clinical Features", "track": "2", "presenter": "Vishakha Yadav" },
+          { "id": "1260", "title": "Analysis on Emerging AI Agent Architectures for Reasoning,Planning and Execution", "track": "2", "presenter": "Altaf Aryan Khan" },
+          { "id": "1263", "title": "Complexity-Aware Gated Fusion: An Efficient Deep Learning Approach for Pansharpening", "track": "2", "presenter": "Samyak Gupta" },
+          { "id": "1298", "title": "A Data- Driven Machine Learning Framework for Analyzing Factors Influencing Student's Value Based Attitudes Toward a Healthy Moral and Spiritual Environment", "track": "2", "presenter": "Jaishankar Bhatt" },
+          { "id": "1305", "title": "AI-Driven Decentralized Healthcare Monitoring Through Blockchain and Federated Edge Learning", "track": "2", "presenter": "Munish Saran" },
+          { "id": "1309", "title": "Blockchain-Integrated Federated Deep Learning for Real-Time Patient Monitoring in IoT Healthcare Systems", "track": "2", "presenter": "Saurabh Ojha" }
+        ]
+      }
+    ]
+  }
+]

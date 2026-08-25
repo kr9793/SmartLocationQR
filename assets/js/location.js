@@ -257,6 +257,98 @@ function displayLocation(location) {
     ).style.display =
         "block";
 
+    loadSchedule(location.id);
+}
+
+
+/* ==========================================
+   LOAD SCHEDULE
+   ========================================== */
+
+let currentLocationScheduleSessions = [];
+let currentDayFilter = "Day 01";
+
+async function loadSchedule(locationId) {
+    try {
+        const response = await fetch("assets/data/schedule.json?v=" + Date.now());
+        if (!response.ok) return;
+
+        const allSchedules = await response.json();
+        const locationSchedule = allSchedules.find(s => String(s.location_id) === String(locationId));
+
+        if (locationSchedule && locationSchedule.sessions && locationSchedule.sessions.length > 0) {
+            currentLocationScheduleSessions = locationSchedule.sessions;
+            document.getElementById("scheduleSection").style.display = "block";
+            
+            // Set up Day tab listeners
+            const tabs = document.querySelectorAll(".schedule-tab");
+            tabs.forEach(tab => {
+                tab.addEventListener("click", function() {
+                    tabs.forEach(t => t.classList.remove("active"));
+                    this.classList.add("active");
+                    currentDayFilter = this.dataset.day;
+                    renderSchedule();
+                });
+            });
+            
+            // Render default (Day 1)
+            renderSchedule();
+        }
+    } catch (error) {
+        console.error("Failed to load schedule:", error);
+    }
+}
+
+function renderSchedule() {
+    const container = document.getElementById("scheduleContainer");
+    let html = "";
+    
+    const filteredSessions = currentLocationScheduleSessions.filter(session => 
+        session.day.includes(currentDayFilter)
+    );
+    
+    if (filteredSessions.length === 0) {
+        container.innerHTML = `<p style="color: #888; font-size: 0.9rem; text-align: center; padding: 20px;">No sessions scheduled for this day.</p>`;
+        return;
+    }
+    
+    filteredSessions.forEach(session => {
+        html += `
+        <div class="schedule-session">
+            <div class="schedule-header">
+                <div class="schedule-header-left">
+                    <span>${session.day}</span>
+                    <h3>${session.type}</h3>
+                </div>
+                <div class="schedule-time">
+                    ${session.time}
+                </div>
+            </div>
+        `;
+        
+        if (session.papers && session.papers.length > 0) {
+            session.papers.forEach(paper => {
+                html += `
+                <div class="schedule-paper">
+                    <div class="schedule-paper-meta">
+                        <span class="schedule-paper-id">ID: ${paper.id}</span>
+                        <span class="schedule-paper-track">Track ${paper.track}</span>
+                    </div>
+                    <strong class="schedule-paper-title">${paper.title}</strong>
+                    <div class="schedule-paper-presenter">
+                        ${paper.presenter}
+                    </div>
+                </div>
+                `;
+            });
+        } else {
+            html += `<p style="color: #888; font-size: 0.9rem;">No papers scheduled for this session.</p>`;
+        }
+        
+        html += `</div>`;
+    });
+    
+    container.innerHTML = html;
 }
 
 

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Location QR - Full Conference Schedule">
+    <meta name="theme-color" content="#05070d">
+    <meta name="view-transition" content="same-origin">
+    
+    <title>Conference Schedule | iSmartComp2026</title>
+    
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="manifest" href="manifest.json">
+    
+    <link rel="stylesheet" href="assets/css/style.css?v=31">
+</head>
+
+<body>
+
+    <header class="home-topbar">
+        <div class="home-header-inner">
+            <div class="home-brand">
+                <div class="home-brand-logo">
+                    <img src="favicon.svg" alt="Smart Location QR logo">
+                </div>
+                <div class="home-brand-text">
+                    <strong>Smart Location QR</strong>
+                    <small>iSmartComp2026 • MMMUT • Gorakhpur</small>
+                </div>
+            </div>
+            
+            <nav class="home-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="schedule.html" class="nav-link active">Schedule</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="home-main">
+        
+        <section class="home-hero" style="padding-bottom: 2rem;">
+            <div class="home-badge">FULL CONFERENCE SCHEDULE</div>
+            <h1>Browse All Sessions</h1>
+            <p>Filter and search through all papers, tracks, and sessions across the entire iSmartComp2026 conference.</p>
+            
+            <div class="home-search">
+                <span>⌕</span>
+                <input type="search" id="scheduleSearchInput" placeholder="Search a paper, author, track, or location..." autocomplete="off">
+            </div>
+        </section>
+
+        <section class="home-locations">
+            <div class="home-section-header">
+                <div>
+                    <span>AGENDA</span>
+                    <h2>Conference Program</h2>
+                </div>
+                <div id="sessionCount" class="location-count">—</div>
+            </div>
+
+            <!-- Global Day Filters -->
+            <div id="dayFilterChips" class="filter-chips">
+                <button type="button" class="chip active" data-day="All">All Days</button>
+                <button type="button" class="chip" data-day="Day 01">Day 1 (29 Aug)</button>
+                <button type="button" class="chip" data-day="Day 02">Day 30 (30 Aug)</button>
+            </div>
+            
+            <div id="scheduleLoading" class="loading" style="margin: 40px 0;">
+                <div class="loader"></div>
+                <p>Loading schedule...</p>
+            </div>
+
+            <div id="scheduleResults" style="display: none;">
+                <!-- Schedule groups will be injected here -->
+            </div>
+            
+            <div id="noScheduleResults" style="display: none; text-align: center; padding: 40px; color: var(--text-muted);">
+                <div style="font-size: 2rem; margin-bottom: 10px;">🔍</div>
+                <p>No sessions found matching your search.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="favicon.svg" alt="Logo">
+                <div>
+                    <strong>Smart Location QR</strong>
+                    <span>MMMUT • Gorakhpur</span>
+                </div>
+            </div>
+            <p>
+                iSmartComp2026 - 2026 IEEE 1st International Conference on Intelligent and Smart Computing.
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/schedule.js?v=1"></script>
+</body>
+</html>

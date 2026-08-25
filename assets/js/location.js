@@ -331,7 +331,7 @@ function renderSchedule() {
                 html += `
                 <div class="schedule-paper">
                     <div class="schedule-paper-header">
-                        <span class="schedule-paper-id">#${paper.id}</span>
+                        <span class="schedule-paper-id">Paper ID #${paper.id}</span>
                         <span class="schedule-paper-track">Track ${paper.track}</span>
                     </div>
                     <h4 class="schedule-paper-title">${paper.title}</h4>

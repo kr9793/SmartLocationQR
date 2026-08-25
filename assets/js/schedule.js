@@ -143,7 +143,7 @@ function renderSchedule() {
             papersHtml = session.papers.map(p => `
                 <div class="schedule-paper">
                     <div class="schedule-paper-header">
-                        <span class="schedule-paper-id">#${p.id}</span>
+                        <span class="schedule-paper-id">Paper ID #${p.id}</span>
                         <span class="schedule-paper-track">Track ${p.track}</span>
                     </div>
                     <h4 class="schedule-paper-title">${p.title}</h4>

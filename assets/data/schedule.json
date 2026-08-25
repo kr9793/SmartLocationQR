@@ -1,38 +1,1011 @@
 [
-  {
-    "location_id": 13,
-    "venue": "PL-116 -GF",
-    "sessions": [
-      {
-        "day": "Day 01 (29/08/2026)",
-        "time": "Slot 1 10:00 AM to 01:00 PM",
-        "type": "Offline Technical Session 01",
-        "papers": [
-          { "id": "822", "title": "Enhancing cross - project software defect prediction with a Multi - Classifier Approach", "track": "2", "presenter": "Shalini" },
-          { "id": "879", "title": "An SVM-based Machine Learning Approach for Pneumonia Detection", "track": "2", "presenter": "Shreya Sharma" },
-          { "id": "882", "title": "Comparative Analysis of Machine Learning Models for Fertilizer Recommendation in Smart Farming", "track": "2", "presenter": "Kanchan" },
-          { "id": "901", "title": "Visual and Skeletal Feature Extraction for Automated Hand Gesture Classification: A CNN–LSTM Benchmarking Study", "track": "2", "presenter": "Harshita Gahlot" },
-          { "id": "905", "title": "ViT Based Multimodal Neuroimaging for the Early AD Detection", "track": "2", "presenter": "Shagufta Shakeel" },
-          { "id": "918", "title": "Hybrid Explainable Ensemble-Based Breast Cancer Detection Architecture", "track": "2", "presenter": "Nidhi Chaudhary" },
-          { "id": "941", "title": "Estimation of Water Discharge in Mahanadi River Using Bayesian Regularized Neural Network Model", "track": "2", "presenter": "Kashish Zehra Naqvi" },
-          { "id": "1133", "title": "SafePath - An AI Pothole Detection and Reporting System", "track": "3", "presenter": "Saijshree Srivastava" }
+    {
+        "location_id": 13,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "822",
+                        "track": "2",
+                        "title": "Enhancing cross - project software defect prediction with a Multi - Classifier Approach",
+                        "presenter": "Shalini"
+                    },
+                    {
+                        "id": "879",
+                        "track": "2",
+                        "title": "An SVM-based Machine Learning Approach for Pneumonia Detection",
+                        "presenter": "Shreya Sharma"
+                    },
+                    {
+                        "id": "882",
+                        "track": "2",
+                        "title": "Comparative Analysis of Machine Learning Models for Fertilizer Recommendation in Smart Farming",
+                        "presenter": "Kanchan"
+                    },
+                    {
+                        "id": "901",
+                        "track": "2",
+                        "title": "Visual and Skeletal Feature Extraction for Automated Hand Gesture Classification: A CNN\u2013LSTM Benchmarking Study",
+                        "presenter": "Harshita Gahlot"
+                    },
+                    {
+                        "id": "905",
+                        "track": "2",
+                        "title": "ViT Based Multimodal Neuroimaging for the Early AD Detection",
+                        "presenter": "Shagufta Shakeel"
+                    },
+                    {
+                        "id": "918",
+                        "track": "2",
+                        "title": "Hybrid Explainable Ensemble-Based Breast Cancer Detection Architecture",
+                        "presenter": "Nidhi Chaudhary"
+                    },
+                    {
+                        "id": "941",
+                        "track": "2",
+                        "title": "Estimation of Water Discharge in Mahanadi River Using Bayesian Regularized Neural Network Model",
+                        "presenter": "Kashish Zehra Naqvi"
+                    },
+                    {
+                        "id": "1133",
+                        "track": "3",
+                        "title": "SafePath - An AI Pothole Detection and Reporting System",
+                        "presenter": "Saijshree Srivastava"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "912",
+                        "track": "6",
+                        "title": "Design and Implementation of a Secure Real-Time Chat Application Using End-to-End Encryption",
+                        "presenter": "Lakhan Tomar"
+                    },
+                    {
+                        "id": "1051",
+                        "track": "3",
+                        "title": "A Hybrid ResViT-18 Based Decision Support System for Grape Leaf Disease Detection",
+                        "presenter": "Varshika Gautam"
+                    },
+                    {
+                        "id": "1367",
+                        "track": "2",
+                        "title": "A Stacking Ensemble Learning Framework For Alzheimer's Disease Prediction Using Clinical Features",
+                        "presenter": "Vishakha Yadav"
+                    },
+                    {
+                        "id": "1260",
+                        "track": "2",
+                        "title": "Analysis on Emerging AI Agent Architectures for Reasoning,Planning and Execution",
+                        "presenter": "Altaf Aryan Khan"
+                    },
+                    {
+                        "id": "1263",
+                        "track": "2",
+                        "title": "Complexity-Aware Gated Fusion: An Efficient Deep Learning Approach for Pansharpening",
+                        "presenter": "Samyak Gupta"
+                    },
+                    {
+                        "id": "1298",
+                        "track": "2",
+                        "title": "A Data- Driven Machine Learning Framework for Analyzing Factors Influencing Student's Value Based Attitudes Toward a Healthy Moral and Spiritual Environment",
+                        "presenter": "Jaishankar Bhatt"
+                    },
+                    {
+                        "id": "1305",
+                        "track": "2",
+                        "title": "AI-Driven Decentralized Healthcare Monitoring Through Blockchain and Federated Edge Learning",
+                        "presenter": "Munish Saran"
+                    },
+                    {
+                        "id": "1309",
+                        "track": "2",
+                        "title": "Blockchain-Integrated Federated Deep Learning for Real-Time Patient Monitoring in IoT Healthcare Systems",
+                        "presenter": "Saurabh Ojha"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "day": "Day 02 (30/08/2026)",
-        "time": "Slot 1 10:00 AM to 01:00 PM",
-        "type": "Offline Technical Session 02",
-        "papers": [
-          { "id": "912", "title": "Design and Implementation of a Secure Real-Time Chat Application Using End-to-End Encryption", "track": "6", "presenter": "Lakhan Tomar" },
-          { "id": "1051", "title": "A Hybrid ResViT-18 Based Decision Support System for Grape Leaf Disease Detection", "track": "3", "presenter": "Varshika Gautam" },
-          { "id": "1367", "title": "A Stacking Ensemble Learning Framework For Alzheimer's Disease Prediction Using Clinical Features", "track": "2", "presenter": "Vishakha Yadav" },
-          { "id": "1260", "title": "Analysis on Emerging AI Agent Architectures for Reasoning,Planning and Execution", "track": "2", "presenter": "Altaf Aryan Khan" },
-          { "id": "1263", "title": "Complexity-Aware Gated Fusion: An Efficient Deep Learning Approach for Pansharpening", "track": "2", "presenter": "Samyak Gupta" },
-          { "id": "1298", "title": "A Data- Driven Machine Learning Framework for Analyzing Factors Influencing Student's Value Based Attitudes Toward a Healthy Moral and Spiritual Environment", "track": "2", "presenter": "Jaishankar Bhatt" },
-          { "id": "1305", "title": "AI-Driven Decentralized Healthcare Monitoring Through Blockchain and Federated Edge Learning", "track": "2", "presenter": "Munish Saran" },
-          { "id": "1309", "title": "Blockchain-Integrated Federated Deep Learning for Real-Time Patient Monitoring in IoT Healthcare Systems", "track": "2", "presenter": "Saurabh Ojha" }
+    },
+    {
+        "location_id": 12,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "856",
+                        "track": "2",
+                        "title": "FindMeAI: AI-Based Lost Item Recovery and Identification System",
+                        "presenter": "Arpit Kumar"
+                    },
+                    {
+                        "id": "866",
+                        "track": "2",
+                        "title": "Personalized Study Planner with Adaptive Learning Paths: An Android-Based Intelligent System",
+                        "presenter": "Rajesh Deshwar"
+                    },
+                    {
+                        "id": "884",
+                        "track": "2",
+                        "title": "A Deep Learning\u2013Based Framework for Crime Detection in Surveillance Videos",
+                        "presenter": "Raja Rathi"
+                    },
+                    {
+                        "id": "886",
+                        "track": "2",
+                        "title": "Machine vs. Deep Learning for Diabetes Prediction",
+                        "presenter": "Dr. Ajay Kumar"
+                    },
+                    {
+                        "id": "899",
+                        "track": "2",
+                        "title": "An Experimental Analysis of Melanoma Detection on Dark Skin Using Deep Learning",
+                        "presenter": "Gurunam Singh"
+                    },
+                    {
+                        "id": "101",
+                        "track": "2",
+                        "title": "Predicting Circular Economy Outcomes on Indian Food and Agriculture Data using an Advanced Transformer-based Model",
+                        "presenter": "Ashutosh Rath"
+                    },
+                    {
+                        "id": "125",
+                        "track": "2",
+                        "title": "Multimodal Lie Detection",
+                        "presenter": "DHAYANITHI B"
+                    },
+                    {
+                        "id": "138",
+                        "track": "2",
+                        "title": "FaceTrace: An AI-Based System for Finding Missing Persons Using Facial Recognition and Deep Learning",
+                        "presenter": "Dr.N.Subbulakshmi"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "900",
+                        "track": "4",
+                        "title": "Loan Default Forecasting and Borrower Risk Stratification Using a Logistic Regression",
+                        "presenter": "Ravi Pratap Singh"
+                    },
+                    {
+                        "id": "1061",
+                        "track": "4",
+                        "title": "Employee Monitoring Practices and Their Influence on Performance Management in IT Organizations of Chennai",
+                        "presenter": "B G Balagangadaran"
+                    },
+                    {
+                        "id": "1253",
+                        "track": "4",
+                        "title": "Failure Pattern and Maintenance Gap Analysis of Traditional Wastewater Treatment Plants Using Industrial Process Data Evolution",
+                        "presenter": "Prashant Kumar Sharma"
+                    },
+                    {
+                        "id": "1366",
+                        "track": "2",
+                        "title": "TRAM: Trust-Resilient Android Malware detection under data poisoning attack",
+                        "presenter": "Ashwin Kumar Shrivastava"
+                    },
+                    {
+                        "id": "1147",
+                        "track": "3",
+                        "title": "Coot Optimization Algorithm with Explainable Artificial Intelligence Guided Cancer Diagnosis in Early Stage Using Magnetic Resonance Imaging",
+                        "presenter": "Sadasivam Subbarayan"
+                    },
+                    {
+                        "id": "1149",
+                        "track": "3",
+                        "title": "Graph Integrated Capsule Network for Anatomical Structure Aware Medical Image Segmentation",
+                        "presenter": "K.P.Senthilkumar"
+                    },
+                    {
+                        "id": "1173",
+                        "track": "3",
+                        "title": "Diffusion Assisted Lightweight Neural Architecture for Noise Resilient Medical Image Reconstruction",
+                        "presenter": "S. Manodhiya"
+                    },
+                    {
+                        "id": "1197",
+                        "track": "3",
+                        "title": "Evaluating RAG and LLM Architectures for Evidence-Grounded Healthcare AI",
+                        "presenter": "Ashok Kumar Rai"
+                    },
+                    {
+                        "id": "839",
+                        "track": "3",
+                        "title": "REAL TIME NEXT WORD PREDICTION FOR LOW-RESOURCE LANGUAGES USING LSTM WITH HINGLISH DATASET",
+                        "presenter": "Unknown Presenter"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    {
+        "location_id": 14,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "982",
+                        "track": "2",
+                        "title": "A Deep Learning Approach for Recognizing Facial Emotions Utilizing use of Multiple CNN Architectures",
+                        "presenter": "Shreya Singh"
+                    },
+                    {
+                        "id": "983",
+                        "track": "2",
+                        "title": "Comparative Evaluation of Deep Learning Models with Noise Filtering for Handwritten Digit Recognition",
+                        "presenter": "Prachi Dubey"
+                    },
+                    {
+                        "id": "1019",
+                        "track": "2",
+                        "title": "Swin Transformer with Multi-Scale Feature Fusion and Grad-CAM Explainability for Breast Ultrasound Detection",
+                        "presenter": "Nidhi Chaudhary"
+                    },
+                    {
+                        "id": "1043",
+                        "track": "2",
+                        "title": "Explainable Deep Learning-Based Pneumonia Detection from Chest X-Ray Images Using Transfer Learning",
+                        "presenter": "Shivangi Sharma"
+                    },
+                    {
+                        "id": "1067",
+                        "track": "2",
+                        "title": "A Secure and Efficient Framework for Enhancing Data and Model Security in AI-Driven Healthcare",
+                        "presenter": "NANDINI SHARMA"
+                    },
+                    {
+                        "id": "1103",
+                        "track": "2",
+                        "title": "A Privacy-Preserving Explainable AI Framework for Healthcare Data using Federated Learning",
+                        "presenter": "NANDINI SHARMA"
+                    },
+                    {
+                        "id": "1127",
+                        "track": "2",
+                        "title": "Multi-Modal Learning for Text-to-Image Synthesis",
+                        "presenter": "Kiran Singh"
+                    },
+                    {
+                        "id": "1131",
+                        "track": "2",
+                        "title": "Sour Apple Vulnerability Prevention System",
+                        "presenter": "Kiran Singh"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "1265",
+                        "track": "5",
+                        "title": "Real-Time Multi-Pollutant Vehicle Emission Monitoring at Toll Plazas Using IoT and Integrated Electrochemical, Metal Oxide, and Optical Sensors",
+                        "presenter": "Astha Srivastava"
+                    },
+                    {
+                        "id": "978",
+                        "track": "3",
+                        "title": "KIDNEY DISEASE DETECTION AND CLASSIFICATION USING SWIN TRANSFORMER",
+                        "presenter": "ANUSHKA PRAKASH"
+                    },
+                    {
+                        "id": "1301",
+                        "track": "5",
+                        "title": "Blockchain-Enabled Federated Learning Framework for Secure Healthcare IoT Networks",
+                        "presenter": "Akancha Agrawal"
+                    },
+                    {
+                        "id": "1303",
+                        "track": "6",
+                        "title": "Privacy-Preserving Medical Intelligence Using Blockchain-Assisted Federated Learning in Healthcare IoT",
+                        "presenter": "Akancha Agrawal"
+                    },
+                    {
+                        "id": "846",
+                        "track": "2",
+                        "title": "Email & SMS Spam Detection",
+                        "presenter": "Rupesh Kumar"
+                    },
+                    {
+                        "id": "850",
+                        "track": "2",
+                        "title": "Real and Fake Image Detection",
+                        "presenter": "Poorendra Mishra"
+                    },
+                    {
+                        "id": "853",
+                        "track": "2",
+                        "title": "Pulse Guard",
+                        "presenter": "Harshvardhan Rai and Shubham"
+                    },
+                    {
+                        "id": "1013",
+                        "track": "2",
+                        "title": "Predicting Heart Disease Using Machine Learning Algorithms",
+                        "presenter": "AkhanVde Srrmivaastava"
+                    },
+                    {
+                        "id": "921",
+                        "track": "2",
+                        "title": "LeukoScan: An AI-Driven Image Segmentation and Classification System for Early Diagnosis of Acute Lymphoblastic Leukemia",
+                        "presenter": "Unknown Presenter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 15,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "1144",
+                        "track": "2",
+                        "title": "AI-Driven Hybrid Intelligence Engine for Real-Time Strategic Operations Management and Workflow Optimization",
+                        "presenter": "Shaik Khaja Rahamthulla"
+                    },
+                    {
+                        "id": "1145",
+                        "track": "2",
+                        "title": "AI-Powered Hybrid Executive Decision Intelligence Model for Enterprise-Wide Innovation and Risk Transformation",
+                        "presenter": "R Mahammad Rafi"
+                    },
+                    {
+                        "id": "1148",
+                        "track": "2",
+                        "title": "Deep Hybrid Attention-Driven Enterprise Analytics Model for Intelligent Project Performance and Timeline Forecasting",
+                        "presenter": "Pernedi Koteswara Rao"
+                    },
+                    {
+                        "id": "1150",
+                        "track": "2",
+                        "title": "Hybrid Attention Guided Deep Learning Framework for Robust Medical Image Disease Classification",
+                        "presenter": "P.Lilly,"
+                    },
+                    {
+                        "id": "1151",
+                        "track": "2",
+                        "title": "Machine Learning Hybrid Ensemble for Financial Portfolio Governance and Enterprise Asset Optimization",
+                        "presenter": "Ch Mastan Chowdry"
+                    },
+                    {
+                        "id": "1152",
+                        "track": "2",
+                        "title": "ML Meta-Ensemble Analytics Framework for E-Commerce Customer Lifetime Value Forecasting and Retention Governance",
+                        "presenter": "Sk Gouse John"
+                    },
+                    {
+                        "id": "1201",
+                        "track": "2",
+                        "title": "MeetNow Seamless Video Meetings,Anytime, Anywhere",
+                        "presenter": "Hemant raj singh"
+                    },
+                    {
+                        "id": "1204",
+                        "track": "2",
+                        "title": "Agentic Document Intelligence Systems: Error-Correcting and Reasoning-Driven Data Extraction Framework",
+                        "presenter": "Durgesh Kumar"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "975",
+                        "track": "2",
+                        "title": "Detection of Cardiovascular Disease using Machine Learning and Deep Learning Method: A Systematic Review",
+                        "presenter": "Pritee Singh"
+                    },
+                    {
+                        "id": "1218",
+                        "track": "5",
+                        "title": "MATLAB-Based 3D Modeling and Comparative C\u2013V/G\u2013V Analysis of Gridded Pt/SiO\u2082/Si and Pd\u2013Au MOS Sensors for Temperature-Dependent Multi-Gas Detection",
+                        "presenter": "Astha Srivastava"
+                    },
+                    {
+                        "id": "1219",
+                        "track": "5",
+                        "title": "Next- Generation IoT Platform for Real-Time Data Visualization and Control.",
+                        "presenter": "Astha Srivastava"
+                    },
+                    {
+                        "id": "1254",
+                        "track": "1",
+                        "title": "\"Describing how the Mixture-of-Agents (MoA) Method enhances Large Language Model (LLM) Capabilities\"",
+                        "presenter": "Sandeep Chaudhary"
+                    },
+                    {
+                        "id": "819",
+                        "track": "5",
+                        "title": "An Intelligent Smart Agriculture Framework Using IoT, Wireless Sensor Networks, and AI for Crop Monitoring and Irrigation Prediction",
+                        "presenter": "Akarsh Kumar Yadav"
+                    },
+                    {
+                        "id": "851",
+                        "track": "5",
+                        "title": "Cybersecurity Enhancement Within Web Application Firewall",
+                        "presenter": "Abhishek Keshari"
+                    },
+                    {
+                        "id": "1039",
+                        "track": "5",
+                        "title": "Intrusion Detection in IoT Using Machine Learning and Ensemble Models",
+                        "presenter": "Anmol Srivastava"
+                    },
+                    {
+                        "id": "1068",
+                        "track": "5",
+                        "title": "Influence of Positive, Negative, and Neutral Online Reviews on Consumer Mindset and Premium Hotel Booking Decisions",
+                        "presenter": "Amal Praveen I"
+                    },
+                    {
+                        "id": "68",
+                        "track": "5",
+                        "title": "IoT Enabled AI System for Real Time Microplastic Detection and Risk Assessment in Water Sources",
+                        "presenter": "Unknown Presenter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 2,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "1166",
+                        "track": "1",
+                        "title": "A Comprehensive Review of Gamification and AI-Driven Engagement Strategies in Engineering and Computer Science Education",
+                        "presenter": "Pragati jha"
+                    },
+                    {
+                        "id": "873",
+                        "track": "6",
+                        "title": "Smart attendance system using face recognition",
+                        "presenter": "Roshni Nikhaade,Tanzela sheikh,kanak"
+                    },
+                    {
+                        "id": "1141",
+                        "track": "2",
+                        "title": "CoralSight: Deep Learning Based Image segmentation for automated Coral Health Classification",
+                        "presenter": "liUhanrnea,tAi dBihtia brdhwagaajt"
+                    },
+                    {
+                        "id": "1205",
+                        "track": "2",
+                        "title": "An Explainable Hybrid CNN\u2013GCN Framework with Optimized Relational Learning for Brain Tumor Classification from MRI Images",
+                        "presenter": "Jyoti Shekhawat"
+                    },
+                    {
+                        "id": "1211",
+                        "track": "2",
+                        "title": "Convolutional Neural Networks-Based Skin Disease Detection Using Robotic Assistants",
+                        "presenter": "Srishti Singh"
+                    },
+                    {
+                        "id": "1240",
+                        "track": "2",
+                        "title": "LHAM-CNN: An Explainable Lightweight Hybrid Deep Learning Model for Childhood CHD",
+                        "presenter": "Rina Rai"
+                    },
+                    {
+                        "id": "22",
+                        "track": "5",
+                        "title": "Blockchain based scholarship based aid distribution system",
+                        "presenter": "Vanshika Tripathi"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "1115",
+                        "track": "5",
+                        "title": "Enhancing Network Security through Hybrid Machine Learning Models for Intrusion Detection",
+                        "presenter": "Shashwat Tiwari"
+                    },
+                    {
+                        "id": "1119",
+                        "track": "5",
+                        "title": "Influence of University Club Participation on Development of Entrepreneurial Mindset Among Calicut University Undergraduate Students",
+                        "presenter": "Subramanian S"
+                    },
+                    {
+                        "id": "1146",
+                        "track": "5",
+                        "title": "Context Aware Federated Learning Framework for Privacy Preserving Smart Healthcare IoT Systems",
+                        "presenter": "Deepa Rajesh"
+                    },
+                    {
+                        "id": "1172",
+                        "track": "5",
+                        "title": "Digital Twin Driven Probabilistic Energy Management Framework for Intelligent Electric Vehicles",
+                        "presenter": "J.Ann Roseela"
+                    },
+                    {
+                        "id": "1176",
+                        "track": "5",
+                        "title": "Blockchain Assisted Secure Routing Architecture for Intelligent Vehicular Ad Hoc Communication Networks",
+                        "presenter": "Gururaj D"
+                    },
+                    {
+                        "id": "1195",
+                        "track": "5",
+                        "title": "A Lightweight Hybrid Blockchain and Edge Computing Framework for Secure Smart Healthcare Systems",
+                        "presenter": "Alok Kumar Gupta"
+                    },
+                    {
+                        "id": "1214",
+                        "track": "5",
+                        "title": "Encrypting Blockchain Transactions with CipherTrace's Cutting-Edge Security Features",
+                        "presenter": "Anand Kumar"
+                    },
+                    {
+                        "id": "1249",
+                        "track": "5",
+                        "title": "Transfer Learning-Enhanced Explainable Graph Neural Networks for Memory-Only Ransomware Detection",
+                        "presenter": "Avanish Kumar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 16,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "1042",
+                        "track": "2",
+                        "title": "Performance Evaluation of CNN, VGG16, and EfficientNetB0 for Car License Plate Detection",
+                        "presenter": "Abhishek Baranawal"
+                    },
+                    {
+                        "id": "1045",
+                        "track": "2",
+                        "title": "Arduino-Powered Flex-Sensor Based Sign Language Interpreter",
+                        "presenter": "Rayyan Ashraf"
+                    },
+                    {
+                        "id": "1047",
+                        "track": "2",
+                        "title": "Reinforcement learning for Smart Traffic Light",
+                        "presenter": "Gautam Kumar"
+                    },
+                    {
+                        "id": "1056",
+                        "track": "2",
+                        "title": "An Efficient Dilated CNN-Based Deepfake Detection Framework with Real-Time Web Deployment",
+                        "presenter": "Aditya Dev Mishra"
+                    },
+                    {
+                        "id": "1255",
+                        "track": "1",
+                        "title": "\"LLM-based Multi-Agent System-augmented Complex Event Processing Pipeline\"",
+                        "presenter": "Altaf Aryan Khan"
+                    },
+                    {
+                        "id": "1292",
+                        "track": "1",
+                        "title": "PEFTPhos: Parameter Efficient Fine-Tuning a Protein Language Model for Phosphorylation Site Prediction using Genetic Algorithm",
+                        "presenter": "Anurag Singh"
+                    },
+                    {
+                        "id": "821",
+                        "track": "2",
+                        "title": "An Adaptive and Explainable Graphical Neural Network Based Model For Detecting Fraud In Blockchain Transactions",
+                        "presenter": "Abhishek Singh"
+                    },
+                    {
+                        "id": "987",
+                        "track": "5",
+                        "title": "Integration of Artificial Intelligence in the Indian Defense Ecosystem: Transforming Modern Warfare, Strategic Operations, and National Security Paradigms",
+                        "presenter": "Devojeet Diwakar"
+                    },
+                    {
+                        "id": "1365",
+                        "track": "6",
+                        "title": "Robust Asynchronous Hierarchical Federated Graph Learning for Privacy-Preserving Zero-Day IoT Intrusion Detection",
+                        "presenter": "Ashok Kumar Rai"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "1304",
+                        "track": "3",
+                        "title": "Survey on various Medical Image Registration Techniques",
+                        "presenter": "Rajeev Singh"
+                    },
+                    {
+                        "id": "1348",
+                        "track": "3",
+                        "title": "Automated Neural Architecture Search for Robust and Interpretable Network Intrusion Detection Using CICIDS 2017",
+                        "presenter": "Pradeep Kumar Mishra"
+                    },
+                    {
+                        "id": "82",
+                        "track": "4",
+                        "title": "Energy-Efficient Resource Allocation for Big Data Analytics in Green Cloud Computing",
+                        "presenter": "Ashish Avasthi"
+                    },
+                    {
+                        "id": "869",
+                        "track": "4",
+                        "title": "Simplification System for Legal Document Using NLP: Bridging the Access-to-Justice Gap Through Neural Classification and Hybrid Simplification",
+                        "presenter": "Rituraj Pal"
+                    },
+                    {
+                        "id": "1256",
+                        "track": "5",
+                        "title": "Sensor Placement Optimization in Traditional Industrial Wastewater Treatment Systems for Enhanced Process Monitoring",
+                        "presenter": "Prashant Kumar Sharma"
+                    },
+                    {
+                        "id": "1264",
+                        "track": "5",
+                        "title": "Real-Time Hybrid DDoS Detection Using Ensemble Machine Learning and Rule-Based Analysis",
+                        "presenter": "Rohan Kushwaha"
+                    },
+                    {
+                        "id": "1297",
+                        "track": "5",
+                        "title": "A Blockchain-Based Framework for Secure Electronic Health Record Management, Interoperability, and Patient Data Sovereignty",
+                        "presenter": "Birendra Kumar Saraswat"
+                    },
+                    {
+                        "id": "1307",
+                        "track": "5",
+                        "title": "Secure Collaborative Disease Prediction Using Federated Learning and Blockchain-Based Healthcare IoT",
+                        "presenter": "Karuna Sharma ,Ritika Mehra"
+                    },
+                    {
+                        "id": "1109",
+                        "track": "2",
+                        "title": "Converso: Cloud-Based Learning Management System with Machine Learning Integration: A Next.js and Supabase Implementation",
+                        "presenter": "Unknown Presenter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 1,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "947",
+                        "track": "4",
+                        "title": "An XAI-Driven Two-Stage Intelligent Crop Prediction and Fertilizer Recommendation System for Precision Farming",
+                        "presenter": "KANCHAN"
+                    },
+                    {
+                        "id": "1022",
+                        "track": "4",
+                        "title": "Impact of Hybrid Work Practices on Employee Engagement and Productivity in IT Organizations of Chennai City",
+                        "presenter": "Aarthi S, Kavitha M"
+                    },
+                    {
+                        "id": "1220",
+                        "track": "5",
+                        "title": "Smart Mining Safety and Monitoring System using IoT and Robotic Rover",
+                        "presenter": "Anamika Yadav"
+                    },
+                    {
+                        "id": "1232",
+                        "track": "5",
+                        "title": "The Evolution of Blockchain Architecture, security, and future Research: State-of-Art",
+                        "presenter": "Kritika Pandey"
+                    },
+                    {
+                        "id": "1296",
+                        "track": "5",
+                        "title": "Genetic Algorithm-Based Framework for Edge Fog Computational Offloading with Mobile Cloud Traffic Scheduling",
+                        "presenter": "Rajani Singh"
+                    },
+                    {
+                        "id": "1071",
+                        "track": "5",
+                        "title": "Scalability and Performance Issues in Blockchain: A Systematic Literature Review",
+                        "presenter": "Himanshi Singh"
+                    },
+                    {
+                        "id": "1108",
+                        "track": "5",
+                        "title": "Development of a Real-Time Web-Based Smart Parking Management System",
+                        "presenter": "Sonia Setia"
+                    },
+                    {
+                        "id": "1153",
+                        "track": "5",
+                        "title": "Secure Software Defined Networking Architecture for Real Time Network Threat Detection and Mitigation",
+                        "presenter": "Maram Y. Al-Safarini"
+                    },
+                    {
+                        "id": "1126",
+                        "track": "2",
+                        "title": "An Ensemble Deep Learning Framework for Skin Disease Classification Using Dermoscopic Images",
+                        "presenter": "Vinay Singh"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Offline Technical Session 02",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "1314",
+                        "track": "5",
+                        "title": "Federated Digital Twins for Smart Healthcare: An AI, Blockchain, and IoT Integrated Approach",
+                        "presenter": "Abhishek Kumar Singh"
+                    },
+                    {
+                        "id": "1316",
+                        "track": "5",
+                        "title": "A Lightweight Federated Learning Framework for Energy-Efficient Blockchain-Based Healthcare IoT",
+                        "presenter": "Saurabh Ojha"
+                    },
+                    {
+                        "id": "1310",
+                        "track": "5",
+                        "title": "A Hybrid Blockchain\u2013Federated Learning Model for Privacy-Aware Smart Healthcare Applications",
+                        "presenter": "Birendra Kumar Saraswat"
+                    },
+                    {
+                        "id": "1360",
+                        "track": "5",
+                        "title": "A Scalable Blockchain Framework for Electronic Health Records Using Federated Learning and zk-Rollups",
+                        "presenter": "Sonia Setia"
+                    },
+                    {
+                        "id": "1361",
+                        "track": "5",
+                        "title": "Lightweight AI-Based Malware Detection for Resource-Constrained IPFS Edge Nodes",
+                        "presenter": "Sanyam Raj"
+                    },
+                    {
+                        "id": "1362",
+                        "track": "5",
+                        "title": "Energy-Aware Adaptive Routing Protocol for Disaster Response Mobile Ad Hoc Networks Using Residual Energy and Link Stability in ns-3.47",
+                        "presenter": "Ashutosh Srivastav"
+                    },
+                    {
+                        "id": "904",
+                        "track": "1",
+                        "title": "CNN-Based ECG Image Analysis for Heartbeat Classification and Arrhythmia Detection",
+                        "presenter": "Dr. Neeraj baghel"
+                    },
+                    {
+                        "id": "910",
+                        "track": "1",
+                        "title": "Emotion-Adaptive Recommender Systems: Leveraging Generative and Agentic AI for Next-Generation Learning Platforms",
+                        "presenter": "Mr. RajMohan De Sarkar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 8,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "1134",
+                        "track": "2",
+                        "title": "Real-Time AI Voice Agent Platform with Low-Latency Speech, Language, and Voice Synthesis",
+                        "presenter": "Dr. Pawan Kumar Mall"
+                    },
+                    {
+                        "id": "1136",
+                        "track": "2",
+                        "title": "Classification of skin lesions with Fine-Tuned Deep Transfer Learning on HAM10000 Dataset.",
+                        "presenter": "Anil Kumar"
+                    },
+                    {
+                        "id": "1212",
+                        "track": "2",
+                        "title": "Design of an LSTM-Based AI System for Patient Health Monitoring in Robotic Sensor Networks",
+                        "presenter": "Akhilesh Kumar Gond"
+                    },
+                    {
+                        "id": "1239",
+                        "track": "2",
+                        "title": "Evaluating Adversarial Robustness of Text based Hate Speech Classifiers",
+                        "presenter": "Abhishek Verma"
+                    },
+                    {
+                        "id": "1251",
+                        "track": "2",
+                        "title": "A Voting-Based Multimodal Hybrid Framework for Oral Cancer Classification",
+                        "presenter": "Avanish Kumar"
+                    },
+                    {
+                        "id": "1257",
+                        "track": "2",
+                        "title": "\"A Privacy-Preserving Federated Learning Framework for Multi-Hospital Collaborative Healthcare AI\"",
+                        "presenter": "Sandeep Chaudhary"
+                    },
+                    {
+                        "id": "1259",
+                        "track": "2",
+                        "title": "A Blueprint Architecture of Compound AI Systems",
+                        "presenter": "Munish Saran"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 7,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "1095",
+                        "track": "6",
+                        "title": "Zero-Day Attack Detection in V2X Networks: A Comprehensive Literature Review",
+                        "presenter": "Srishti Singh"
+                    },
+                    {
+                        "id": "1229",
+                        "track": "1",
+                        "title": "Deep Learning for Smart Energy: A CNN-LSTM Hybrid Approach to Building Energy Consumption Prediction",
+                        "presenter": "SHACHI MALL"
+                    },
+                    {
+                        "id": "1230",
+                        "track": "1",
+                        "title": "Enhancing News Credibility with ML and DL-Based Fake Detection Models\"",
+                        "presenter": "SHACHI MALL"
+                    },
+                    {
+                        "id": "1231",
+                        "track": "1",
+                        "title": "A Sentiment-Aware Sentence-SBERT Ensemble Framework for Early",
+                        "presenter": "SHACHI MALL"
+                    },
+                    {
+                        "id": "855",
+                        "track": "3",
+                        "title": "Contextual Sentiment Analysis for Socio-Cultural Events Multilingual Sentiment Analysis on Social Media Data",
+                        "presenter": "Trapti Shrivastava"
+                    },
+                    {
+                        "id": "1299",
+                        "track": "5",
+                        "title": "IoT-Enabled Healthcare Systems: Architecture, Applications, Challenges, and Future Perspectives",
+                        "presenter": "Dr. Arnika Jain"
+                    },
+                    {
+                        "id": "1300",
+                        "track": "5",
+                        "title": "Intelligent Healthcare Data Sharing Through Blockchain-Secured Federated Learning Architectures",
+                        "presenter": "Rajani Singh"
+                    },
+                    {
+                        "id": "1312",
+                        "track": "5",
+                        "title": "Blockchain-Driven Incentive Mechanisms for Federated Learning in Healthcare IoT Ecosystems",
+                        "presenter": "Ms.Kavya Goswami"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "location_id": 6,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Offline Technical Session 01",
+                "time": "Slot 2 02:00 PM to 05:00 PM",
+                "papers": [
+                    {
+                        "id": "1125",
+                        "track": "1",
+                        "title": "Specifying and Evaluating Dynamic Manifestations on the Face in Adults with Autism Spectrum Disorder",
+                        "presenter": "Pooja Singh"
+                    },
+                    {
+                        "id": "1137",
+                        "track": "2",
+                        "title": "CareFusion: An AI Healthcare App Leveraging Edge Intelligence, Federated Learning, and Interoperable Digital Health Standards",
+                        "presenter": "Sonia Setia"
+                    },
+                    {
+                        "id": "880",
+                        "track": "3",
+                        "title": "Medical Image Classification for Pneumonia Detection from Chest X-ray Images Using CNN and Vision Transformer",
+                        "presenter": "Trapti Shrivastava"
+                    },
+                    {
+                        "id": "1114",
+                        "track": "6",
+                        "title": "Neuromarketing Influenced Consumer Decision-Making in Search Engine Optimization Strategies",
+                        "presenter": "Dr.S.Subramanian"
+                    },
+                    {
+                        "id": "1118",
+                        "track": "6",
+                        "title": "Strategic Adaptation of Human Resource Management Practices to Align Organizational Culture of the Gen Z Employees in the Modern Workplaces",
+                        "presenter": "Dr.S.Subramanian"
+                    },
+                    {
+                        "id": "1128",
+                        "track": "6",
+                        "title": "A Review of Sybil attacks and their Impact on FANET Security",
+                        "presenter": "Vishal T"
+                    },
+                    {
+                        "id": "1191",
+                        "track": "6",
+                        "title": "OMIA Intrusion Detection Using Factorization of Machines in simulating low-order Feature Interactions",
+                        "presenter": "Pradeep Kumar Mishra"
+                    },
+                    {
+                        "id": "1200",
+                        "track": "6",
+                        "title": "Cybersecurity Challenges and Defence Mechanisms in Internet of Things Systems",
+                        "presenter": "Ashok Kumar Rai"
+                    }
+                ]
+            }
+        ]
+    }
 ]

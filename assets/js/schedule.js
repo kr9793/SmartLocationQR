@@ -75,8 +75,12 @@ function applyFilters() {
     filteredSessions = [];
 
     allSessions.forEach(session => {
-        // Day filter
-        if (activeDayFilter !== "All" && !session.day.includes(activeDayFilter)) {
+        // Day & Online filter
+        if (activeDayFilter === "Online") {
+            if (session.location.id != 17) {
+                return; // Hide non-virtual sessions
+            }
+        } else if (activeDayFilter !== "All" && !session.day.includes(activeDayFilter)) {
             return;
         }
 

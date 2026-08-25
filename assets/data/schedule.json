@@ -1007,5 +1007,132 @@
                 ]
             }
         ]
+    },
+    {
+        "location_id": 17,
+        "sessions": [
+            {
+                "day": "Day 01 (29/08/2026)",
+                "type": "Online Technical Session 01",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "928",
+                        "track": "2",
+                        "title": "Performance Analysis of Deep Learning Techniques for Plant Disease Prediction",
+                        "presenter": "Rishabh Mishra"
+                    },
+                    {
+                        "id": "931",
+                        "track": "2",
+                        "title": "Optimized machine learning classifiers in symptom-based health screening using clinical vignettes",
+                        "presenter": "Jai Sindhu"
+                    },
+                    {
+                        "id": "940",
+                        "track": "2",
+                        "title": "Optimized and enhanced EfficientNet-B5 model for oral cancer detection using Particle Swarm Optimization",
+                        "presenter": "Adarsh Raj"
+                    },
+                    {
+                        "id": "985",
+                        "track": "2",
+                        "title": "Learning Chess Through LLMs",
+                        "presenter": "Abu Zar"
+                    },
+                    {
+                        "id": "1018",
+                        "track": "2",
+                        "title": "Emosphere: A Hybrid Emotion Detection and Summarization System Using Lexicon and Transformers",
+                        "presenter": "Aryan Chaudhary"
+                    },
+                    {
+                        "id": "1020",
+                        "track": "2",
+                        "title": "Conversational AI in Telemedicine: A Systematic Review of Chatbot Architectures, Explainability, and Patient Engagement",
+                        "presenter": "Priyanshu"
+                    },
+                    {
+                        "id": "1021",
+                        "track": "2",
+                        "title": "A Comprehensive review of brain tumor detection using machine learning and deep learning",
+                        "presenter": "SiddThraiprtahth Siingh"
+                    },
+                    {
+                        "id": "1065",
+                        "track": "2",
+                        "title": "AI- POWERED VIRTUAL YOGA TRAINER/ COMPUTER VISION BASED REAL TIME YOGA POSE DETECTION AND CORRECTION",
+                        "presenter": "Deepanshu"
+                    },
+                    {
+                        "id": "954",
+                        "track": "5",
+                        "title": "Designing Smart Contracts and Blockchain Technology Platforms for Return Assurance in E-Business Supply Chains",
+                        "presenter": "LingKWumeia Pr ang"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "Online Technical Session 02",
+                "time": "Slot 1 10:00 AM to 01:00 PM",
+                "papers": [
+                    {
+                        "id": "1327",
+                        "track": "2",
+                        "title": "Knowledge Management and Information Systems Integration for Enhanced Organizational Learning",
+                        "presenter": "Deepak Suresh Asudani"
+                    },
+                    {
+                        "id": "1330",
+                        "track": "2",
+                        "title": "Integrating Explainable AI with Agentic AI for Transparent and Autonomous Decision-Making Systems",
+                        "presenter": "Sandeep Kumar"
+                    },
+                    {
+                        "id": "1333",
+                        "track": "2",
+                        "title": "Regulating Social Media Algorithms Governance Challenges in the Era of Generative AI",
+                        "presenter": "Shobhit Prajapati"
+                    },
+                    {
+                        "id": "1336",
+                        "track": "2",
+                        "title": "Deep Learning Fuzzy Models Shaping Educational Psychology: From Behaviour to Prediction and Decision Making",
+                        "presenter": "R. Pratheba"
+                    },
+                    {
+                        "id": "1340",
+                        "track": "2",
+                        "title": "Digital Twin Framework for Classroom Learning and Decision Making Using Fuzzy Concept to Learn Historical Cities",
+                        "presenter": "R. Ramana"
+                    },
+                    {
+                        "id": "896",
+                        "track": "1",
+                        "title": "A Comprehensive Comparative Analysis of Signature-based and Behavior-based Malware Detection Techniques",
+                        "presenter": "Debashis Chakraborty"
+                    },
+                    {
+                        "id": "46",
+                        "track": "5",
+                        "title": "eCampus Pay: A Smart RFID and IoT-Enabled ePayment System for Cashless and Secure Campus Transactions",
+                        "presenter": "V.Harsha Vardhan"
+                    },
+                    {
+                        "id": "961",
+                        "track": "5",
+                        "title": "Exploration of Personalized Learning Model under Modern Educational Technology: Dynamic Learning Path and Adaptive Teaching Strategy Based on Multiple Intelligence Theory",
+                        "presenter": "Ma Ke"
+                    },
+                    {
+                        "id": "1034",
+                        "track": "5",
+                        "title": "Trust Model for Mitigation and Avoidance of Hybrid Security Attacks in Underwater Acoustic Wireless Sensor Networks (UAWSNs)",
+                        "presenter": "Vinay Agrawal"
+                    }
+                ]
+            }
+        ]
     }
 ]

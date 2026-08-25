@@ -156,7 +156,16 @@
         "category": "Conference Hall",
         "icon": "\ud83d\udcd6",
         "latitude": 26.729795,
-        "longitude": 83.434484,
         "image": "assets/images/location16.jpeg"
+    },
+    {
+        "id": 17,
+        "name": "Online",
+        "description": "A dedicated space for all online presentations and virtual tracks. Meeting URLs will be circulated via email by session chairs.",
+        "category": "Virtual",
+        "icon": "🌐",
+        "latitude": 26.731429,
+        "longitude": 83.433739,
+        "image": "favicon.svg"
     }
 ]

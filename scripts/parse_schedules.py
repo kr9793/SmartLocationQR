@@ -41,10 +41,13 @@ def parse_schedules():
                         venue_str = str(row[4]).lower() if len(row) > 4 and row[4] else ""
                         
                         loc_id = None
-                        for loc_name, lid in loc_map.items():
-                            if loc_name in venue_str:
-                                loc_id = lid
-                                break
+                        if "online" in venue_str or "meet" in venue_str:
+                            loc_id = 17
+                        else:
+                            for loc_name, lid in loc_map.items():
+                                if loc_name in venue_str:
+                                    loc_id = lid
+                                    break
                         
                         if loc_id:
                             current_location_id = loc_id

@@ -163,12 +163,12 @@ function renderSchedule() {
                     <div class="schedule-time" style="margin-top: 5px;">${session.time}</div>
                 </div>
                 <div style="text-align: right;">
+                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 6px;">${session.day}</div>
                     <a href="location.html?id=${session.location.id}" style="text-decoration: none;">
                         <span style="display: inline-block; padding: 4px 10px; background: rgba(56, 189, 248, 0.1); border: 1px solid var(--cyan); border-radius: 20px; color: var(--cyan); font-size: 0.85rem; font-weight: 500;">
                             📍 ${session.location.name}
                         </span>
                     </a>
-                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">${session.day}</div>
                 </div>
             </div>
             <div class="schedule-papers">

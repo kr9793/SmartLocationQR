@@ -72,35 +72,44 @@ function setupFilters() {
 function applyFilters() {
     const search = document.getElementById("scheduleSearchInput").value.toLowerCase().trim();
 
-    filteredSessions = allSessions.filter(session => {
+    filteredSessions = [];
+
+    allSessions.forEach(session => {
         // Day filter
         if (activeDayFilter !== "All" && !session.day.includes(activeDayFilter)) {
-            return false;
+            return;
         }
 
-        // Search filter
-        if (search) {
-            const locMatch = session.location.name.toLowerCase().includes(search);
-            const typeMatch = session.type && session.type.toLowerCase().includes(search);
-            const timeMatch = session.time && session.time.toLowerCase().includes(search);
+        if (!search) {
+            filteredSessions.push(session);
+            return;
+        }
+
+        const locMatch = session.location.name.toLowerCase().includes(search);
+        const typeMatch = session.type && session.type.toLowerCase().includes(search);
+        const timeMatch = session.time && session.time.toLowerCase().includes(search);
+        
+        let matchedPapers = [];
+        if (session.papers) {
+            matchedPapers = session.papers.filter(paper => {
+                return paper.title.toLowerCase().includes(search) || 
+                       paper.presenter.toLowerCase().includes(search) ||
+                       paper.id.toLowerCase().includes(search) ||
+                       paper.track.toLowerCase().includes(search);
+            });
+        }
+
+        if (locMatch || typeMatch || timeMatch || matchedPapers.length > 0) {
+            // Clone session to avoid mutating global data
+            const sessionClone = { ...session };
             
-            let paperMatch = false;
-            if (session.papers) {
-                for (const paper of session.papers) {
-                    if (paper.title.toLowerCase().includes(search) || 
-                        paper.presenter.toLowerCase().includes(search) ||
-                        paper.id.toLowerCase().includes(search) ||
-                        paper.track.toLowerCase().includes(search)) {
-                        paperMatch = true;
-                        break;
-                    }
-                }
+            // If it matched only on paper data (and NOT on session data), only show matched papers
+            if (!(locMatch || typeMatch || timeMatch)) {
+                sessionClone.papers = matchedPapers;
             }
-
-            return locMatch || typeMatch || timeMatch || paperMatch;
+            
+            filteredSessions.push(sessionClone);
         }
-
-        return true;
     });
 
     renderSchedule();

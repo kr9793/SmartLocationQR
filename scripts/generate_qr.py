@@ -21,7 +21,7 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_H,
         box_size=12,
-        border=4
+        border=2
     )
     qr.add_data(data)
     qr.make(fit=True)
@@ -73,7 +73,7 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
     # Calculate sizes
     qr_w, qr_h = qr_img.size
     header_h = 70  # Space for conference title at top
-    footer_h = 80  # Space for location name and instructions at bottom
+    footer_h = 75  # Space for location name and instructions at bottom
     
     # Require width to be at least max of QR, text, and header
     img_w = max(qr_w, text_w_loc + 60, total_w_header + 60)
@@ -107,7 +107,7 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
 
     # Draw Footer (Location Name)
     text_x_loc = (img_w - text_w_loc) // 2
-    text_y_loc = header_h + qr_h + 15
+    text_y_loc = header_h + qr_h + 5
     draw.text((text_x_loc, text_y_loc), text, fill=text_color, font=font_loc_name)
     
     # Draw Footer (Instructions)

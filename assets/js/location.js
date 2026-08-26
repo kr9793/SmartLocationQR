@@ -124,6 +124,7 @@ function displayLocation(location) {
 
 
     /* VIRTUAL LOCATION OVERRIDES */
+    let hasValidCoords = false;
     if (location.category === "Virtual") {
         document.getElementById("mediaRow").style.display = "none";
         document.getElementById("directions").style.display = "none";
@@ -137,7 +138,7 @@ function displayLocation(location) {
         /* COORDINATES — VALIDATE */
         const lat = Number(location.latitude);
         const lng = Number(location.longitude);
-        const hasValidCoords = Number.isFinite(lat) && Number.isFinite(lng);
+        hasValidCoords = Number.isFinite(lat) && Number.isFinite(lng);
 
         if (hasValidCoords) {
             document.getElementById("coordinates").textContent = lat + ", " + lng;

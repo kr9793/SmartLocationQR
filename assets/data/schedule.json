@@ -69,12 +69,6 @@
                         "presenter": "Lakhan Tomar"
                     },
                     {
-                        "id": "1051",
-                        "track": "3",
-                        "title": "A Hybrid ResViT-18 Based Decision Support System for Grape Leaf Disease Detection",
-                        "presenter": "Varshika Gautam"
-                    },
-                    {
                         "id": "1367",
                         "track": "2",
                         "title": "A Stacking Ensemble Learning Framework For Alzheimer's Disease Prediction Using Clinical Features",
@@ -504,10 +498,10 @@
                         "presenter": "liUhanrnea,tAi dBihtia brdhwagaajt"
                     },
                     {
-                        "id": "1205",
-                        "track": "2",
-                        "title": "An Explainable Hybrid CNN\u2013GCN Framework with Optimized Relational Learning for Brain Tumor Classification from MRI Images",
-                        "presenter": "Jyoti Shekhawat"
+                        "id": "1051",
+                        "track": "3",
+                        "title": "A Hybrid ResViT-18 Based Decision Support System for Grape Leaf Disease Detection",
+                        "presenter": "Varshika Gautam"
                     },
                     {
                         "id": "1211",
@@ -774,6 +768,12 @@
                         "track": "2",
                         "title": "An Ensemble Deep Learning Framework for Skin Disease Classification Using Dermoscopic Images",
                         "presenter": "Vinay Singh"
+                    },
+                    {
+                        "id": "1134",
+                        "track": "2",
+                        "title": "Real-Time AI Voice Agent Platform with Low-Latency Speech, Language, and Voice Synthesis",
+                        "presenter": "Dr. Pawan Kumar Mall"
                     }
                 ]
             },
@@ -842,12 +842,6 @@
                 "type": "Offline Technical Session 01",
                 "time": "Slot 2 02:00 PM to 05:00 PM",
                 "papers": [
-                    {
-                        "id": "1134",
-                        "track": "2",
-                        "title": "Real-Time AI Voice Agent Platform with Low-Latency Speech, Language, and Voice Synthesis",
-                        "presenter": "Dr. Pawan Kumar Mall"
-                    },
                     {
                         "id": "1136",
                         "track": "2",
@@ -1020,13 +1014,13 @@
                         "id": "53",
                         "track": "2",
                         "title": "Cognitive Sentinel: A Scalable AI Framework for Emotion-Informed Mental Health Screening",
-                        "presenter": "SNEHAL SACHIN ANTAPURKAR"
+                        "presenter": "SNEHAL SACHIN"
                     },
                     {
                         "id": "825",
                         "track": "2",
                         "title": "Hybrid GARCH\u2013LSTM Framework for Risk-Calibrated Wealth Projection in Global Equity Markets",
-                        "presenter": "Shobana P"
+                        "presenter": "ANTAPURKAR Shobana P"
                     },
                     {
                         "id": "924",
@@ -1134,13 +1128,13 @@
                         "id": "1030",
                         "track": "4",
                         "title": "Attention-Enhanced Deep Learning Model for Audio-Based Sentiment Analysis",
-                        "presenter": "Kajal Chourasiya"
+                        "presenter": "Kajal"
                     },
                     {
                         "id": "1184",
                         "track": "4",
                         "title": "Impact Of Diversity Equity Inclusion On Employee Motivation With Mediating Effect Of Commitment IT Firms",
-                        "presenter": "Meenatchi M B"
+                        "presenter": "Chourasiya Meenatchi M B"
                     },
                     {
                         "id": "1225",
@@ -1194,25 +1188,25 @@
                         "id": "883",
                         "track": "2",
                         "title": "TFID-NB A Fake News Detection approach via Attention-Based Deep Learning Models",
-                        "presenter": "Nitish Kumar"
+                        "presenter": "NitisRhe dKduymar"
                     },
                     {
                         "id": "920",
                         "track": "2",
                         "title": "An Explainable Machine Learning Framework for Binary Seizure Detection Using Clinical EEG Signals",
-                        "presenter": "Himanshu"
+                        "presenter": "Tripathi Himanshu"
                     },
                     {
                         "id": "906",
                         "track": "2",
                         "title": "FLOOD-RESILIENT URBAN PLANNING THROUGH AI DRIVEN HYDROLOGICAL MODELING",
-                        "presenter": "Sibaram Prasad"
+                        "presenter": "SibaSrahmar mPraasad"
                     },
                     {
                         "id": "957",
                         "track": "5",
                         "title": "Clothing Rental Platform Based on Solidity Smart Contract: Realizing a Circular Economy Model with Automated Deposit Management and Rental Cycle Control",
-                        "presenter": "WANG YUJIE"
+                        "presenter": "panda WANG YUJIE"
                     },
                     {
                         "id": "1320",
@@ -1236,7 +1230,7 @@
                         "id": "1129",
                         "track": "2",
                         "title": "Imbalanced Data: Challenges, Techniques, and Future Directions",
-                        "presenter": "Santosh Kumar Chauhan"
+                        "presenter": "SantoGsahn Kdhuimar Chauhan"
                     },
                     {
                         "id": "1355",
@@ -1260,19 +1254,38 @@
                         "id": "1183",
                         "track": "1",
                         "title": "Design and Evaluation of Variational Quantum Learning Models for Near-Term Quantum Devices",
-                        "presenter": "Rupam Bhagawati"
+                        "presenter": "Rupam"
                     },
                     {
                         "id": "959",
                         "track": "5",
                         "title": "Augmented Reality Picture Book Reading: A New Model of Preschool Education Based on the Integration of Multiple Intelligence Theory and Language",
-                        "presenter": "Haohan Mao"
+                        "presenter": "Bhagawati Haohan Mao"
                     },
                     {
                         "id": "1155",
                         "track": "2",
                         "title": "Arts Machine Learning Approaches for Stock Price Movement Prediction: A Comprehensive Survey",
                         "presenter": "ATEBAR HAIDER"
+                    }
+                ]
+            },
+            {
+                "day": "Day 02 (30/08/2026)",
+                "type": "SBH- SHANTI SWAROOP BHATNAGAR HALL",
+                "time": "None",
+                "papers": [
+                    {
+                        "id": "955/1355Cons",
+                        "track": "hings 5",
+                        "title": "tructing a Real-Time Monitoring and Collaborative Rescue Platform for Agricultural Flood Disasters in Henan Province Based on GIS and the Internet of T",
+                        "presenter": "Nan Li"
+                    },
+                    {
+                        "id": "958/1359",
+                        "track": "5",
+                        "title": "Deep Learning-Based Masked Face Recognition Using Hybrid Neural Classification",
+                        "presenter": "K. Vijayakumar"
                     }
                 ]
             },
@@ -1417,18 +1430,24 @@
                         "id": "944",
                         "track": "6",
                         "title": "A Unified Multimodal Campus Navigation System, Combining GIS Routing and Conversational Chatbot for Effective Wayfinding",
-                        "presenter": "Kudumula Vishnu Vardhan Reddy"
+                        "presenter": "Kudumula Vishnu Vardhan"
                     },
                     {
                         "id": "1090",
                         "track": "2",
                         "title": "A Multi-Modal Fusion and Spatio-Temporal 3D-CNN for Early Detection of Mango Anthracnose in Natural Infection Scenarios",
-                        "presenter": "VIPIN RAWAT"
+                        "presenter": "Reddy VIPIN RAWAT"
                     },
                     {
                         "id": "1063",
                         "track": "4",
                         "title": "Data-Driven Crime Detection and Prevention Model for Smart Cities using Machine Learning and Deep learning",
+                        "presenter": "Unknown Presenter"
+                    },
+                    {
+                        "id": "1040/1293",
+                        "track": "General",
+                        "title": "Recent Developments in Deep Learning Methods for Diabetes-Related Foot Ulcers: A Comprehensive Review",
                         "presenter": "Unknown Presenter"
                     }
                 ]
@@ -1479,6 +1498,12 @@
                         "track": "2",
                         "title": "Deep Learning\u2013Driven Predictive Analytics for Climate Dynamics and Integrated Environmental Monitoring Systems",
                         "presenter": "Dr. Swati Joshi"
+                    },
+                    {
+                        "id": "1205",
+                        "track": "2",
+                        "title": "An Explainable Hybrid CNN\u2013GCN Framework with Optimized Relational Learning for Brain Tumor Classification from MRI Images",
+                        "presenter": "Jyoti Shekhawat"
                     },
                     {
                         "id": "1098",

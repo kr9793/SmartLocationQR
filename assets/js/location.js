@@ -254,12 +254,12 @@ function renderSchedule() {
     filteredSessions.forEach(session => {
         html += `
         <div class="schedule-group">
-            <div class="schedule-header">
+            <div class="schedule-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
                 <div class="schedule-header-left">
-                    <span>${session.day}</span>
+                    <span style="display: inline-block; padding: 4px 10px; background: rgba(56, 189, 248, 0.1); border: 1px solid var(--cyan); border-radius: 20px; color: var(--cyan); font-size: 0.85rem; font-weight: 500; margin-bottom: 8px;">${session.day}</span>
                     <h3 style="margin: 0; color: var(--cyan);">${session.type}</h3>
                 </div>
-                <div class="schedule-time" style="margin-top: 5px;">
+                <div class="schedule-time" style="margin-top: 5px; padding: 8px 12px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border); border-radius: 8px; font-size: 0.9rem;">
                     ${session.time}
                 </div>
             </div>

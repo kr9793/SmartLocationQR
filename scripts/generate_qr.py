@@ -40,17 +40,6 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
         )
     ).convert('RGB')
     
-    # Calculate sizes
-    qr_w, qr_h = qr_img.size
-    header_h = 70  # Space for conference title at top
-    footer_h = 80  # Space for location name and instructions at bottom
-    
-    # Create new image with extra space at top and bottom
-    new_img = Image.new('RGB', (qr_w, qr_h + header_h + footer_h), bg_color)
-    new_img.paste(qr_img, (0, header_h))
-    
-    draw = ImageDraw.Draw(new_img)
-    
     # Try to load appealing fonts (Segoe UI on Windows), fallback to Arial, then default
     try:
         font_main_title = ImageFont.truetype("segoeuib.ttf", 36) # Conference Title (Header)
@@ -68,16 +57,37 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
             font_loc_name = ImageFont.load_default()
             font_sub = ImageFont.load_default()
             font_tiny = ImageFont.load_default()
-            
-    # Draw Header (Logo + Conference Title)
+
+    draw_temp = ImageDraw.Draw(Image.new('RGB', (1,1)))
+    bbox_loc = draw_temp.textbbox((0, 0), text, font=font_loc_name)
+    text_w_loc = bbox_loc[2] - bbox_loc[0]
+    
     conf_title = "iSmartComp2026"
-    bbox_conf = draw.textbbox((0, 0), conf_title, font=font_main_title)
+    bbox_conf = draw_temp.textbbox((0, 0), conf_title, font=font_main_title)
     text_w_conf = bbox_conf[2] - bbox_conf[0]
     
     logo_size = 38
     gap = 12
-    total_w = logo_size + gap + text_w_conf
-    start_x = (qr_w - total_w) // 2
+    total_w_header = logo_size + gap + text_w_conf
+
+    # Calculate sizes
+    qr_w, qr_h = qr_img.size
+    header_h = 70  # Space for conference title at top
+    footer_h = 80  # Space for location name and instructions at bottom
+    
+    # Require width to be at least max of QR, text, and header
+    img_w = max(qr_w, text_w_loc + 60, total_w_header + 60)
+    
+    # Create new image with extra space at top and bottom, and dynamic width
+    new_img = Image.new('RGB', (img_w, qr_h + header_h + footer_h), bg_color)
+    
+    qr_x = (img_w - qr_w) // 2
+    new_img.paste(qr_img, (qr_x, header_h))
+    
+    draw = ImageDraw.Draw(new_img)
+    
+    # Draw Header (Logo + Conference Title)
+    start_x = (img_w - total_w_header) // 2
     
     logo_path = "../assets/images/conference_logo.png"
     if os.path.exists(logo_path):
@@ -87,7 +97,7 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
         new_img.paste(logo, (start_x, logo_y), logo)
     else:
         # Fallback if logo not found, just center text
-        start_x = (qr_w - text_w_conf) // 2
+        start_x = (img_w - text_w_conf) // 2
         logo_size = 0
         gap = 0
         
@@ -96,15 +106,14 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
     draw.text((text_x_conf, text_y_conf), conf_title, fill=text_color, font=font_main_title)
 
     # Draw Footer (Location Name)
-    bbox_loc = draw.textbbox((0, 0), text, font=font_loc_name)
-    text_x_loc = (qr_w - (bbox_loc[2] - bbox_loc[0])) // 2
+    text_x_loc = (img_w - text_w_loc) // 2
     text_y_loc = header_h + qr_h + 15
     draw.text((text_x_loc, text_y_loc), text, fill=text_color, font=font_loc_name)
     
     # Draw Footer (Instructions)
     instruction_text = subtitle
     bbox_inst = draw.textbbox((0, 0), instruction_text, font=font_sub)
-    text_x_inst = (qr_w - (bbox_inst[2] - bbox_inst[0])) // 2
+    text_x_inst = (img_w - (bbox_inst[2] - bbox_inst[0])) // 2
     text_y_inst = text_y_loc + 35
     draw.text((text_x_inst, text_y_inst), instruction_text, fill=text_color, font=font_sub)
     
@@ -117,7 +126,7 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
     corner_h = bbox_corner[3] - bbox_corner[1]
     
     pad = 4
-    radius = max(corner_w, corner_h) / 2 + pad
+    radius = max(corner_w, corner_h) // 2 + pad
     
     # Top Left
     tl_cx, tl_cy = 15, 15
@@ -126,7 +135,7 @@ def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & sched
     
     # Bottom Right
     total_h = qr_h + header_h + footer_h
-    br_cx, br_cy = qr_w - 15, total_h - 15
+    br_cx, br_cy = img_w - 15, total_h - 15
     draw.ellipse([br_cx - radius, br_cy - radius, br_cx + radius, br_cy + radius], outline=corner_color, width=1)
     draw.text((br_cx, br_cy), corner_text, fill=corner_color, font=font_tiny, anchor="mm")
     

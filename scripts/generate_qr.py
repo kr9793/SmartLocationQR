@@ -16,7 +16,7 @@ with open(LOCATIONS_FILE, "r", encoding="utf-8") as f:
 
 locations = sorted(locations, key=lambda loc: loc["id"])
 
-def create_labeled_qr(data, text, filename, subtitle="Scan for location details"):
+def create_labeled_qr(data, text, filename, subtitle="Scan for venue map & schedule"):
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_H,

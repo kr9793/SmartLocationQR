@@ -152,6 +152,6 @@ print("================================")
 
 # Generate Homepage QR code
 home_url = "https://kr9793.github.io/iSmartCompConnect/"
-create_labeled_qr(home_url, "iSmartComp2026 Home", "QR_Homepage.png", "Scan for the main conference website")
+create_labeled_qr(home_url, "iSmartComp Connect", "QR_Homepage.png", "Scan for schedule and venue details")
 print(f"\nCreated: QR_Homepage.png")
 print(f"URL:     {home_url}")

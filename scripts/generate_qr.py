@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from qrcode.image.styledpil import StyledPilImage
 from qrcode.image.styles.colormasks import HorizontalGradiantColorMask
 
-BASE_URL = "https://kr9793.github.io/SmartLocationQR/location.html?id="
+BASE_URL = "https://kr9793.github.io/iSmartCompConnect/location.html?id="
 LOCATIONS_FILE = "../assets/data/locations.json"
 OUTPUT_FOLDER = "../QR_Codes"
 
@@ -151,7 +151,7 @@ print(f"All {len(locations)} location QR codes generated!")
 print("================================")
 
 # Generate Homepage QR code
-home_url = "https://kr9793.github.io/SmartLocationQR/"
+home_url = "https://kr9793.github.io/iSmartCompConnect/"
 create_labeled_qr(home_url, "iSmartComp2026 Home", "QR_Homepage.png", "Scan for the main conference website")
 print(f"\nCreated: QR_Homepage.png")
 print(f"URL:     {home_url}")

@@ -107,7 +107,7 @@ function displayLocation(location) {
 
 
     document.getElementById(
-        "description"
+        "locationDetail"
     ).textContent =
         location.description ||
         "MMMUT campus location, Gorakhpur.";

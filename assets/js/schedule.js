@@ -75,13 +75,17 @@ function applyFilters() {
     filteredSessions = [];
 
     allSessions.forEach(session => {
-        // Day & Online filter
-        if (activeDayFilter === "Online") {
-            if (session.location.id != 17) {
-                return; // Hide non-virtual sessions
-            }
-        } else if (activeDayFilter !== "All" && !session.day.includes(activeDayFilter)) {
-            return;
+        // Day & Online/Offline filter
+        if (activeDayFilter !== "All") {
+            const isOnlineFilter = activeDayFilter.includes("Online");
+            const isOfflineFilter = activeDayFilter.includes("Offline");
+            const dayPart = activeDayFilter.split(" ")[0] + " " + activeDayFilter.split(" ")[1];
+            
+            if (!session.day.includes(dayPart)) return;
+            
+            const isOnlineSession = (session.location.id == 17);
+            if (isOnlineFilter && !isOnlineSession) return;
+            if (isOfflineFilter && isOnlineSession) return;
         }
 
         if (!search) {

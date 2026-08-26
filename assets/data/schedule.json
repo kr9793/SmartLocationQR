@@ -1272,19 +1272,6 @@
             },
             {
                 "day": "Day 02 (30/08/2026)",
-                "type": "SBH- SHANTI SWAROOP BHATNAGAR HALL",
-                "time": "None",
-                "papers": [
-                    {
-                        "id": "958/1359",
-                        "track": "5",
-                        "title": "Deep Learning-Based Masked Face Recognition Using Hybrid Neural Classification",
-                        "presenter": "K. Vijayakumar"
-                    }
-                ]
-            },
-            {
-                "day": "Day 02 (30/08/2026)",
                 "type": "Online Technical Session 02",
                 "time": "Slot 1 10:00 AM to 01:00 PM",
                 "papers": [

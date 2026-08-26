@@ -1276,12 +1276,6 @@
                 "time": "None",
                 "papers": [
                     {
-                        "id": "955/1355Cons",
-                        "track": "hings 5",
-                        "title": "tructing a Real-Time Monitoring and Collaborative Rescue Platform for Agricultural Flood Disasters in Henan Province Based on GIS and the Internet of T",
-                        "presenter": "Nan Li"
-                    },
-                    {
                         "id": "958/1359",
                         "track": "5",
                         "title": "Deep Learning-Based Masked Face Recognition Using Hybrid Neural Classification",

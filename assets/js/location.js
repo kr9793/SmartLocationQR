@@ -106,11 +106,12 @@ function displayLocation(location) {
         location.name;
 
 
-    document.getElementById(
-        "locationDetail"
-    ).textContent =
-        location.description ||
-        "MMMUT campus location, Gorakhpur.";
+    const detailEl = document.getElementById("locationDetail");
+    if (detailEl) {
+        detailEl.textContent =
+            location.description ||
+            "MMMUT campus location, Gorakhpur.";
+    }
 
 
     /* CATEGORY / TYPE BADGE */
